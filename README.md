@@ -6,12 +6,12 @@ Simon Miyashita\
 Kevin Shi\
 Yiran Yu\
 Andrew Li\
-Longqirui Chen\
+Longqirui Chen
 
 Method of communication: Wechat & Ig\
-Github project link for update: https://github.com/illumin04/B07Project\
+Github project link for update: https://github.com/illumin04/B07Project <br>
 Scheduled times for all daily/bi-daily standup meetings:\
-Sunday 20:00 Mon-Sat:TBD\
+Sunday 20:00 Mon-Sat:TBD
 
 
 Push to GitHub:
