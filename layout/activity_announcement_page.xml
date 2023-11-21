@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/announcements_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="List of Announcements"
+        android:textSize="35dp"/>
+
+    <Button
+        android:id="@+id/new_announcement_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Create New Announcement"
+        android:textSize="20dp"
+        android:background="@color/black"/>
+
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:drawableLeft="@drawable/baseline_arrow_back_24"
+        android:layout_marginLeft="30dp"
+        android:text="Back"
+        android:textSize="20dp"
+        android:layout_gravity="start|bottom"
+        android:background="@color/black" />
+
+</LinearLayout>
