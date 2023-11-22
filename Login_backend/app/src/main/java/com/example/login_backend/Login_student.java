@@ -92,22 +92,20 @@ public class Login_student extends AppCompatActivity {
                 // passing data to RTD
                 db = FirebaseDatabase.getInstance();
                 reference=db.getReference("Users");
-                reference.child(username).child("admin");
-                /*
+                reference=reference.child(username).child("usertype");
+
                 reference.addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        for(DataSnapshot snapshot: dataSnapshot.getChildren())
-                        {
-                            adminb= (boolean) snapshot.getValue();
-                        }
+                        adminb= (boolean) dataSnapshot.getValue();
+
                     }
 
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
 
                     }
-                });*/
+                });
                 mAuth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
