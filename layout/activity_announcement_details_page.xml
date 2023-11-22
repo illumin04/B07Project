@@ -9,43 +9,17 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:textSize="30dp"
-        android:text="Event Details: "
+        android:text="Announcement Details: "
         android:textStyle="bold"/>
 
     <EditText
         android:id="@+id/details"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:textSize="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="50dp"
         android:hint="Enter text here"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Student Comments:"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/comments"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="40dp"
-        android:hint="Enter text here"/>
-
-    <EditText
-        android:id="@+id/ratings"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25dp"
-        android:text="Student Ratings:"
-        android:textStyle="bold"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="40dp"/>
 
     <Button
         android:id="@+id/back_btn"
