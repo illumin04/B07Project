@@ -16,7 +16,7 @@ public class ComplaintsActivity extends AppCompatActivity {
 
         Button newComplaintsButton = findViewById(R.id.newComplaintsButton);
         Button viewComplaintsButton = findViewById(R.id.viewComplaintsButton);
-        Button backButton = findViewById(R.id.backButton);
+        Button backButton = findViewById(R.id.backButtonComplaint);
 
         newComplaintsButton.setOnClickListener(new View.OnClickListener() {
             @Override
