@@ -50,4 +50,7 @@
     <string name="click_to_login">click to login</string>
     <string name="click_to_register" />
     <string name="register_now">Register now</string>
+    <string name="username">Username</string>
+    <string name="student_page">Student_page</string>
+    <string name="admin_page">admin_page</string>
 </resources>

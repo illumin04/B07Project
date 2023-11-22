@@ -15,15 +15,26 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.login_backend.databinding.ActivityMainBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Login_student extends AppCompatActivity {
-    TextInputEditText editTextEmail, editTextPassword;
+    //ActivityMainBinding binding;
+    boolean adminb=false;
+    DatabaseReference reference;
+    FirebaseDatabase db;
+    String username,email,password;
+    TextInputEditText editTextEmail, editTextPassword,editusername;
     Button buttonLog;
     FirebaseAuth mAuth;
     ProgressBar progressBar;
@@ -47,6 +58,7 @@ public class Login_student extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_student);
         mAuth= FirebaseAuth.getInstance();
+        editusername=findViewById(R.id.username);
         editTextEmail=findViewById(R.id.email);
         editTextPassword=findViewById(R.id.password);
         buttonLog = findViewById(R.id.btnlogin);
@@ -64,10 +76,11 @@ public class Login_student extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
-                String email, password;
+                //String email, password;
+                username=String.valueOf(editusername.getText());
                 email= String.valueOf(editTextEmail.getText());
                 password=String.valueOf(editTextPassword.getText());
-
+                //usertype=== (checkbox)
                 if(TextUtils.isEmpty(email)){
                     Toast.makeText(Login_student.this,"Enter email", Toast.LENGTH_SHORT).show();
                     return;
@@ -76,20 +89,48 @@ public class Login_student extends AppCompatActivity {
                     Toast.makeText(Login_student.this, "Enter email", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                // passing data to RTD
+                db = FirebaseDatabase.getInstance();
+                reference=db.getReference("Users");
+                reference.child(username).child("admin");
+                /*
+                reference.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                        for(DataSnapshot snapshot: dataSnapshot.getChildren())
+                        {
+                            adminb= (boolean) snapshot.getValue();
+                        }
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });*/
                 mAuth.signInWithEmailAndPassword(email, password)
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 progressBar.setVisibility(View.GONE);
-                                if (task.isSuccessful()) {
+                                if (task.isSuccessful() && !adminb) {
                                     // Sign in success, update UI with the signed-in user's information
-                                    Toast.makeText(getApplicationContext(),"Login successful", Toast.LENGTH_SHORT);
-                                    Intent intent = new Intent (getApplicationContext(), MainActivity.class);
+                                    Toast.makeText(getApplicationContext(),"Student login successful", Toast.LENGTH_SHORT);
+                                    Intent intent = new Intent (getApplicationContext(),Student_page.class);
                                     // modify this to connect to student main activity
                                     startActivity(intent);
                                     finish();
 
-                                } else {
+                                } else if (task.isSuccessful() && adminb) {
+                                    // Sign in success, update UI with the signed-in user's information
+                                    Toast.makeText(getApplicationContext(),"Admin login successful", Toast.LENGTH_SHORT);
+                                    Intent intent = new Intent (getApplicationContext(),admin_page.class);
+                                    // modify this to connect to student main activity
+                                    startActivity(intent);
+                                    finish();
+
+                                }
+                                else {
                                     // If sign in fails, display a message to the user.
 
                                     Toast.makeText(Login_student.this, "Authentication failed.",
