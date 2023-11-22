@@ -3,6 +3,10 @@ local
 color black
 color white
 dimen fab_margin
+drawable andriod_login
+drawable andriod_registration
+drawable baseline_password_24
+drawable baseline_person_add_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id FirstFragment
@@ -23,6 +27,7 @@ id nav_host_fragment_content_main
 id password
 id progressBar
 id regesternow
+id signin
 id textview_first
 id textview_second
 id toolbar

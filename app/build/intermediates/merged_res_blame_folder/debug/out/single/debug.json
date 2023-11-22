@@ -8,12 +8,24 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/layout_activity_student_page.xml.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_student_page.xml"
+    },
+    {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/xml_data_extraction_rules.xml.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/xml/data_extraction_rules.xml"
     },
     {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_baseline_password_24.xml.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/baseline_password_24.xml"
+    },
+    {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.login_backend.app-merged_res-48:/layout_activity_register.xml.flat",
+        "source": "com.example.login_backend.app-main-50:/layout/activity_register.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_ic_launcher_foreground.xml.flat",
@@ -36,16 +48,12 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.login_backend.app-merged_res-48:/layout_activity_admin_page.xml.flat",
-        "source": "com.example.login_backend.app-main-50:/layout/activity_admin_page.xml"
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/layout_activity_login_student.xml.flat",
@@ -56,12 +64,20 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_andriod_login.png.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/andriod_login.png"
+    },
+    {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/xml_backup_rules.xml.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/layout_activity_admin_page.xml.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_admin_page.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/layout_fragment_second.xml.flat",
@@ -72,8 +88,8 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/fragment_first.xml"
     },
     {
-        "merged": "com.example.login_backend.app-merged_res-48:/layout_activity_student_page.xml.flat",
-        "source": "com.example.login_backend.app-main-50:/layout/activity_student_page.xml"
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_baseline_person_add_24.xml.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/baseline_person_add_24.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -90,6 +106,10 @@
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/drawable_andriod_registration.png.flat",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/drawable/andriod_registration.png"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-merged_res-48:/mipmap-xhdpi_ic_launcher.webp.flat",

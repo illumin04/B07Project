@@ -4,8 +4,12 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.login_backend.app-mergeDebugResources-47:/layout/activity_student_page.xml",
-        "source": "com.example.login_backend.app-main-50:/layout/activity_student_page.xml"
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-mergeDebugResources-47:/layout/activity_admin_page.xml",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_admin_page.xml"
+    },
+    {
+        "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-mergeDebugResources-47:/layout/activity_student_page.xml",
+        "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_student_page.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-mergeDebugResources-47:/layout/fragment_first.xml",
@@ -20,16 +24,16 @@
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_register.xml"
     },
     {
+        "merged": "com.example.login_backend.app-mergeDebugResources-47:/layout/activity_register.xml",
+        "source": "com.example.login_backend.app-main-50:/layout/activity_register.xml"
+    },
+    {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-mergeDebugResources-47:/layout/fragment_second.xml",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/fragment_second.xml"
     },
     {
         "merged": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-mergeDebugResources-47:/layout/activity_login_student.xml",
         "source": "/Users/longqiruichen/.gradle/daemon/8.0/com.example.login_backend.app-main-50:/layout/activity_login_student.xml"
-    },
-    {
-        "merged": "com.example.login_backend.app-mergeDebugResources-47:/layout/activity_admin_page.xml",
-        "source": "com.example.login_backend.app-main-50:/layout/activity_admin_page.xml"
     },
     {
         "merged": "com.example.login_backend.app-mergeDebugResources-47:/layout/activity_login_student.xml",
