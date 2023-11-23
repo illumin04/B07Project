@@ -44,6 +44,57 @@
             android:name="com.example.login_backend.Login_admin"
             android:exported="false" />
         <activity
+            android:name="com.example.login_backend.DetailedAnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ViewAnnouncementsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnouncementsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ViewComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.PostQualificationActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.Admin_Page"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewEvent"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewAnnouncement"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.FeedbackSummaryPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.EventPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ComplaintsPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ComplaintDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.AnnouncementDetailsPage"
+            android:exported="false" />
+        <activity
             android:name="com.example.login_backend.Login_student"
             android:exported="true"
             android:theme="@style/Theme.Material3.Dark.NoActionBar" >

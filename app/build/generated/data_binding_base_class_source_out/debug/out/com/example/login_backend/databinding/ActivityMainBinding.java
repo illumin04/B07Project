@@ -4,38 +4,41 @@ package com.example.login_backend.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.login_backend.R;
-import com.google.android.material.appbar.MaterialToolbar;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final CoordinatorLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final FloatingActionButton fab;
+  public final Button announcementsButton;
 
   @NonNull
-  public final MaterialToolbar toolbar;
+  public final Button complaintsButton;
 
-  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
-      @NonNull FloatingActionButton fab, @NonNull MaterialToolbar toolbar) {
+  @NonNull
+  public final Button postQualificationButton;
+
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull Button announcementsButton,
+      @NonNull Button complaintsButton, @NonNull Button postQualificationButton) {
     this.rootView = rootView;
-    this.fab = fab;
-    this.toolbar = toolbar;
+    this.announcementsButton = announcementsButton;
+    this.complaintsButton = complaintsButton;
+    this.postQualificationButton = postQualificationButton;
   }
 
   @Override
   @NonNull
-  public CoordinatorLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -60,19 +63,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.fab;
-      FloatingActionButton fab = ViewBindings.findChildViewById(rootView, id);
-      if (fab == null) {
+      id = R.id.announcementsButton;
+      Button announcementsButton = ViewBindings.findChildViewById(rootView, id);
+      if (announcementsButton == null) {
         break missingId;
       }
 
-      id = R.id.toolbar;
-      MaterialToolbar toolbar = ViewBindings.findChildViewById(rootView, id);
-      if (toolbar == null) {
+      id = R.id.complaintsButton;
+      Button complaintsButton = ViewBindings.findChildViewById(rootView, id);
+      if (complaintsButton == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((CoordinatorLayout) rootView, fab, toolbar);
+      id = R.id.postQualificationButton;
+      Button postQualificationButton = ViewBindings.findChildViewById(rootView, id);
+      if (postQualificationButton == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((RelativeLayout) rootView, announcementsButton,
+          complaintsButton, postQualificationButton);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

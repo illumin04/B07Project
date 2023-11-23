@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:2:1-96:12
 MERGED from [androidx.databinding:viewbinding:8.1.2] /Users/longqiruichen/.gradle/caches/transforms-3/8ec2711496ab0de47f5b973323f7e6b5/transformed/viewbinding-8.1.2/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.5] /Users/longqiruichen/.gradle/caches/transforms-3/4ae21c1b8a604c816c05658d4b13dc56/transformed/navigation-common-2.7.5/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.5] /Users/longqiruichen/.gradle/caches/transforms-3/496a9c3ed6793d7ce446874d7e62db5f/transformed/navigation-runtime-2.7.5/AndroidManifest.xml:17:1-22:12
@@ -94,8 +94,8 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/longqiruichen
 	android:name
 		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:7:5-43:19
-INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:7:5-43:19
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:7:5-94:19
+INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:7:5-94:19
 MERGED from [com.google.android.material:material:1.10.0] /Users/longqiruichen/.gradle/caches/transforms-3/049ae63a1950a4725ff9b326c87f6ca3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] /Users/longqiruichen/.gradle/caches/transforms-3/049ae63a1950a4725ff9b326c87f6ca3/transformed/material-1.10.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/longqiruichen/.gradle/caches/transforms-3/7fa83f6eb9c3037babdc8a5c48367ea4/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -182,30 +182,132 @@ ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main
 		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:29:13-37
 	android:name
 		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:28:13-40
+activity#com.example.login_backend.DetailedAnnouncementActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:31:13-57
+activity#com.example.login_backend.ViewAnnouncementsActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:34:13-54
+activity#com.example.login_backend.AnnouncementsActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:37:13-50
+activity#com.example.login_backend.ViewComplaintsActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:40:13-51
+activity#com.example.login_backend.NewComplaintsActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:43:13-50
+activity#com.example.login_backend.ComplaintsActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:46:13-47
+activity#com.example.login_backend.PostQualificationActivity
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:49:13-54
+activity#com.example.login_backend.Admin_Page
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:52:13-39
+activity#com.example.login_backend.NewEvent
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:55:13-37
+activity#com.example.login_backend.NewAnnouncement
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:58:13-44
+activity#com.example.login_backend.FeedbackSummaryPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:61:13-48
+activity#com.example.login_backend.EventPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:64:13-38
+activity#com.example.login_backend.ComplaintsPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:67:13-43
+activity#com.example.login_backend.ComplaintDetailsPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:70:13-49
+activity#com.example.login_backend.AnnouncementPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:72:9-74:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:73:13-45
+activity#com.example.login_backend.AnnnouncementPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:75:9-77:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:76:13-46
+activity#com.example.login_backend.AnnouncementDetailsPage
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:78:9-80:40
+	android:exported
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:79:13-52
 activity#com.example.login_backend.Login_student
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:30:9-39:20
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:81:9-90:20
 	android:exported
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:32:13-36
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:83:13-36
 	android:theme
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:33:13-68
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:84:13-68
 	android:name
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:31:13-42
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:82:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:34:13-38:29
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:85:13-89:29
 action#android.intent.action.MAIN
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:35:17-69
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:86:17-69
 	android:name
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:35:25-66
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:86:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:37:17-77
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:88:17-77
 	android:name
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:37:27-74
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:88:27-74
 activity#com.example.login_backend.MainActivity
-ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:40:9-42:39
+ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:91:9-93:39
 	android:exported
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:42:13-36
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:93:13-36
 	android:name
-		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:41:13-41
+		ADDED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml:92:13-41
 uses-sdk
 INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/AndroidManifest.xml

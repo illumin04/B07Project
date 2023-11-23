@@ -114,7 +114,7 @@ public class Login_student extends AppCompatActivity {
                                 if (task.isSuccessful() && !adminb) {
                                     // Sign in success, update UI with the signed-in user's information
                                     Toast.makeText(getApplicationContext(),"Student login successful", Toast.LENGTH_SHORT);
-                                    Intent intent = new Intent (getApplicationContext(),Student_page.class);
+                                    Intent intent = new Intent (getApplicationContext(),MainActivity.class);
                                     // modify this to connect to student main activity
                                     startActivity(intent);
                                     finish();
@@ -122,7 +122,7 @@ public class Login_student extends AppCompatActivity {
                                 } else if (task.isSuccessful() && adminb) {
                                     // Sign in success, update UI with the signed-in user's information
                                     Toast.makeText(getApplicationContext(),"Admin login successful", Toast.LENGTH_SHORT);
-                                    Intent intent = new Intent (getApplicationContext(),admin_page.class);
+                                    Intent intent = new Intent (getApplicationContext(),Admin_main.class);
                                     // modify this to connect to student main activity
                                     startActivity(intent);
                                     finish();

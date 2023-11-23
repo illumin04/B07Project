@@ -28,6 +28,57 @@
             android:name=".Login_admin"
             android:exported="false" />
         <activity
+            android:name=".DetailedAnnouncementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAnnouncementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PostQualificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Page"
+            android:exported="false" />
+        <activity
+            android:name=".NewEvent"
+            android:exported="false" />
+        <activity
+            android:name=".NewAnnouncement"
+            android:exported="false" />
+        <activity
+            android:name=".FeedbackSummaryPage"
+            android:exported="false" />
+        <activity
+            android:name=".EventPage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintsPage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementDetailsPage"
+            android:exported="false" />
+        <activity
             android:name=".Login_student"
             android:exported="true"
             android:theme="@style/Theme.Material3.Dark.NoActionBar">
