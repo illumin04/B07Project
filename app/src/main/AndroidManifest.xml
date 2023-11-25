@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -10,8 +12,54 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication"
+        android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
+        <activity
+            android:name=".OutMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".InMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".OutStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".InStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".MathPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".POStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".CSPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".OutCSPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".StatsPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".POStNotQualify"
+            android:exported="false" />
+        <activity
+            android:name=".POStQualify"
+            android:exported="false" />
+        <activity
+            android:name=".admin_page"
+            android:exported="false" />
+        <activity
+            android:name=".Student_page"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar" />
+        <activity
+            android:name=".Login_admin"
+            android:exported="false" />
         <activity
             android:name=".DetailedAnnouncementActivity"
             android:exported="false" />
@@ -31,26 +79,51 @@
             android:name=".ComplaintsActivity"
             android:exported="false" />
         <activity
-            android:name=".PostQualificationActivity"
+            android:name=".InCSPOStQualification"
             android:exported="false" />
         <activity
-            android:name=".HomePageActivity"
+            android:name=".Admin_Page"
             android:exported="false" />
         <activity
-            android:name=".LoginAct"
+            android:name=".NewEvent"
             android:exported="false" />
         <activity
-            android:name=".SignupAct"
+            android:name=".NewAnnouncement"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".FeedbackSummaryPage"
+            android:exported="false" />
+        <activity
+            android:name=".EventPage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintsPage"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnnouncementPage"
+            android:exported="false" />
+        <activity
+            android:name=".AnnouncementDetailsPage"
+            android:exported="false" />
+        <activity
+            android:name=".Login_student"
+            android:exported="true"
+            android:theme="@style/Theme.Material3.Dark.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
