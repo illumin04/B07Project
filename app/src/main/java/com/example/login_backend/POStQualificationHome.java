@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 
@@ -16,6 +18,7 @@ public class POStQualificationHome extends AppCompatActivity {
         RadioButton cs = findViewById(R.id.cs);
         RadioButton math = findViewById(R.id.math);
         RadioButton stats = findViewById(R.id.stats);
+        Button backButton = findViewById(R.id.backButton);
 
         cs.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
@@ -44,6 +47,13 @@ public class POStQualificationHome extends AppCompatActivity {
                     Intent out_intent = new Intent(POStQualificationHome.this, StatsPOStQualificationHome.class);
                     startActivity(out_intent);
                 }
+            }
+        });
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
     }
