@@ -15,6 +15,39 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
+            android:name=".OutMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".InMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".OutStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".InStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".MathPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".POStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".CSPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".OutCSPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name=".StatsPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name=".POStNotQualify"
+            android:exported="false" />
+        <activity
+            android:name=".POStQualify"
+            android:exported="false" />
+        <activity
             android:name=".admin_page"
             android:exported="false" />
         <activity
@@ -46,7 +79,7 @@
             android:name=".ComplaintsActivity"
             android:exported="false" />
         <activity
-            android:name=".PostQualificationActivity"
+            android:name=".InCSPOStQualification"
             android:exported="false" />
         <activity
             android:name=".Admin_Page"

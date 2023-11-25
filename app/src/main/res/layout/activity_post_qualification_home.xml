@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to POSt Admission Checklist! Please answer the following question to determine your major."
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Which major are you in"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/q1_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Science (CS)"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mathematics (Math)"
+                android:textSize="20dp"/>
+
+            <RadioButton
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Statistics (Stats)"
+                android:textSize="20dp"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_below="@id/q1_radio"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp" />
+
+    </RelativeLayout>
+</ScrollView>
