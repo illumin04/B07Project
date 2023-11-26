@@ -38,6 +38,12 @@
             android:inputType="number"
             android:maxLength="10000"/>
 
+        <EditText
+            android:id="@+id/eventMessage"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"/>
+
         <Button
             android:id="@+id/submit_btn"
             android:layout_width="wrap_content"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:text="Event Name: "
             android:textStyle="bold"/>
 
@@ -27,41 +26,35 @@
             android:layout_marginBottom="40dp"
             android:hint="Enter details here"/>
 
-        <TextView
+        <Button
+            android:id="@+id/rsvpButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:text="Student Feedback:"
-            android:textStyle="bold" />
+            android:layout_marginEnd="10dp"
+            android:text="RSVP"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:background="@color/black"/>
 
-        <EditText
-            android:id="@+id/feedback"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/submit_area"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"
-            android:hint="Enter text here"/>
-
-        <EditText
-            android:id="@+id/ratings"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:text="Student Ratings:"
-            android:inputType="number"
-            android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"/>
-
+            android:layout_marginTop="40dp"
+            android:text="Click here to submit feedback and rating for the event"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/black" />
         <Button
             android:id="@+id/back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:drawableLeft="@drawable/baseline_arrow_back_24"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
             android:text="Back"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:layout_gravity="start|bottom"
             android:background="@color/black" />
 

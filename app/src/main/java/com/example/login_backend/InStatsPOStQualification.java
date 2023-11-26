@@ -2,6 +2,7 @@ package com.example.login_backend;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -40,6 +41,7 @@ public class InStatsPOStQualification extends AppCompatActivity {
 
         Button checkButton = findViewById(R.id.checkButton);
         Button backButton = findViewById(R.id.backButton);
+        Button homeButton = findViewById(R.id.homeButton);
 
         q1_true.setOnCheckedChangeListener(new RadioButton.OnCheckedChangeListener() {
             @Override
@@ -164,7 +166,14 @@ public class InStatsPOStQualification extends AppCompatActivity {
                     not_qualify.setVisibility(View.VISIBLE);
                 }
             }
+        });
 
+        homeButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InStatsPOStQualification.this, StudentHomePage.class);
+                startActivity(intent);
+            }
         });
 
     }

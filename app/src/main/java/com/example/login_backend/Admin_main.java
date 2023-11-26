@@ -16,11 +16,17 @@ public class Admin_main extends AppCompatActivity {
         Button announcementButton = findViewById(R.id.announcements_btn);
         Button eventButton = findViewById(R.id.events_btn);
         Button complaintsButton = findViewById(R.id.complaints_btn);
+        Bundle extras = getIntent().getExtras();
 
         announcementButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Admin_main.this, AnnouncementPage.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });
@@ -30,6 +36,11 @@ public class Admin_main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Admin_main.this, EventPage.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });
@@ -39,6 +50,11 @@ public class Admin_main extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Admin_main.this, ComplaintsPage.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });

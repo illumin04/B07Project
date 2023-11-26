@@ -25,44 +25,43 @@
             android:layout_marginTop="10dp"
             android:padding="10dp"/>
 
-        <RadioGroup
-            android:id="@+id/q1_radio"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/question1"
-            android:orientation="vertical"
-            android:padding="10dp">
-
-            <RadioButton
+            <Button
                 android:id="@+id/cs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/question1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Computer Science (CS)"
-                android:textSize="20dp"/>
+                android:textSize="20dp" />
 
-            <RadioButton
+            <Button
                 android:id="@+id/math"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@id/cs"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Mathematics (Math)"
-                android:textSize="20dp"/>
+                android:textSize="20dp" />
 
-            <RadioButton
+            <Button
                 android:id="@+id/stats"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/math"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
                 android:text="Statistics (Stats)"
-                android:textSize="20dp"/>
-
-        </RadioGroup>
+                android:textSize="20dp" />
 
         <Button
             android:id="@+id/backButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back"
-            android:layout_below="@id/q1_radio"
-            android:layout_marginTop="20dp"
+            android:layout_below="@id/stats"
+            android:layout_marginTop="50dp"
             android:layout_marginEnd="20dp" />
 
     </RelativeLayout>

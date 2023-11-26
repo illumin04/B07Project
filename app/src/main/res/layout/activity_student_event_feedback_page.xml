@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30dp"
-            android:text="Student Feedback:"
+            android:text="Your comment for this event:"
             android:textStyle="bold" />
 
         <EditText
@@ -43,27 +43,48 @@
             android:layout_marginBottom="40dp"
             android:hint="Enter text here"/>
 
-        <EditText
-            android:id="@+id/ratings"
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
-            android:text="Student Ratings:"
-            android:inputType="number"
+            android:textSize="35dp"
+            android:text="Your rating for this event (on a scale of 1 to 100):"
             android:textStyle="bold"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="40dp"/>
+            android:layout_marginTop="10dp" />
 
-        <Button
-            android:id="@+id/back_btn"
-            android:layout_width="wrap_content"
+        <EditText
+            android:id="@+id/scale"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/baseline_arrow_back_24"
-            android:layout_marginLeft="10dp"
-            android:text="Back"
+            android:inputType="number"
+            android:hint="Enter number here"
             android:textSize="20dp"
-            android:layout_gravity="start|bottom"
-            android:background="@color/black" />
+            android:layout_marginBottom="50dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_arrow_back_24"
+                android:text="Back"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="150dp"
+                android:layout_toRightOf="@+id/backButton"
+                android:text="Submit"
+                android:textSize="20dp"
+                android:background="@color/black" />
+        </RelativeLayout>
 
     </LinearLayout>
 </ScrollView>

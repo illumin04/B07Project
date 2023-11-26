@@ -14,28 +14,16 @@ public class AnnouncementPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_announcement_page);
         Button announcement1 = findViewById(R.id.announcement1);
+        Bundle extras = getIntent().getExtras();
         announcement1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AnnouncementPage.this, AnnouncementDetailsPage.class);
-                startActivity(intent);
-            }
-        });
-
-        Button announcement2 = findViewById(R.id.announcement2);
-        announcement2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(AnnouncementPage.this, AnnouncementDetailsPage.class);
-                startActivity(intent);
-            }
-        });
-
-        Button announcement3 = findViewById(R.id.announcement3);
-        announcement3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(AnnouncementPage.this, AnnouncementDetailsPage.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });
@@ -48,8 +36,7 @@ public class AnnouncementPage extends AppCompatActivity {
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AnnouncementPage.this, MainActivity.class);
-                startActivity(intent);
+                finish();
             }
         });
 
@@ -57,6 +44,11 @@ public class AnnouncementPage extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(AnnouncementPage.this, NewAnnouncement.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });

@@ -15,6 +15,18 @@
         android:theme="@style/Theme.Material3.Dark"
         tools:targetApi="31">
         <activity
+            android:name=".NewComplaint"
+            android:exported="false" />
+        <activity
+            android:name=".ComplaintsPage"
+            android:exported="false" />
+        <activity
+            android:name=".StudentEventHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".StudentEventFeedbackPage"
+            android:exported="false" />
+        <activity
             android:name=".OutMathPOStQualification"
             android:exported="false" />
         <activity
@@ -42,47 +54,29 @@
             android:name=".StatsPOStQualificationHome"
             android:exported="false" />
         <activity
-            android:name=".POStNotQualify"
-            android:exported="false" />
-        <activity
-            android:name=".POStQualify"
-            android:exported="false" />
-        <activity
             android:name=".admin_page"
             android:exported="false" />
         <activity
-            android:name=".Student_page"
+            android:name=".ViewEvent"
             android:exported="false" />
         <activity
             android:name=".Register"
             android:exported="false"
             android:theme="@style/Theme.Material3.Dark.NoActionBar" />
         <activity
-            android:name=".Login_admin"
-            android:exported="false" />
-        <activity
             android:name=".DetailedAnnouncementActivity"
             android:exported="false" />
         <activity
-            android:name=".ViewAnnouncementsActivity"
+            android:name=".ViewAnnouncements"
             android:exported="false" />
         <activity
-            android:name=".AnnouncementsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ViewComplaintsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".NewComplaintsActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ComplaintsActivity"
+            android:name=".ViewComplaints"
             android:exported="false" />
         <activity
             android:name=".InCSPOStQualification"
             android:exported="false" />
         <activity
-            android:name=".Admin_Page"
+            android:name=".Admin_main"
             android:exported="false" />
         <activity
             android:name=".NewEvent"
@@ -97,16 +91,10 @@
             android:name=".EventPage"
             android:exported="false" />
         <activity
-            android:name=".ComplaintsPage"
-            android:exported="false" />
-        <activity
             android:name=".ComplaintDetailsPage"
             android:exported="false" />
         <activity
             android:name=".AnnouncementPage"
-            android:exported="false" />
-        <activity
-            android:name=".AnnnouncementPage"
             android:exported="false" />
         <activity
             android:name=".AnnouncementDetailsPage"
@@ -122,8 +110,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+            android:name=".StudentHomePage"
+            android:exported="false" />
     </application>
 
 </manifest>

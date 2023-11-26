@@ -16,27 +16,23 @@ public class MathPOStQualificationHome extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_math_post_qualification_home);
 
-        RadioButton yes = findViewById(R.id.yes);
-        RadioButton no = findViewById(R.id.no);
+        Button yes = findViewById(R.id.yes);
+        Button no = findViewById(R.id.no);
         Button backButton = findViewById(R.id.backButton);
 
-        yes.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        yes.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (isChecked) {
-                    Intent in_intent = new Intent(MathPOStQualificationHome.this, InMathPOStQualification.class);
-                    startActivity(in_intent);
-                }
+            public void onClick(View view) {
+                Intent in_intent = new Intent(MathPOStQualificationHome.this, InMathPOStQualification.class);
+                startActivity(in_intent);
             }
         });
 
-        no.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        no.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (isChecked) {
-                    Intent out_intent = new Intent(MathPOStQualificationHome.this, OutMathPOStQualification.class);
-                    startActivity(out_intent);
-                }
+            public void onClick(View view) {
+                Intent out_intent = new Intent(MathPOStQualificationHome.this, OutMathPOStQualification.class);
+                startActivity(out_intent);
             }
         });
 
