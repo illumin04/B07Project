@@ -21,8 +21,7 @@ public class AnnouncementDetailsPage extends AppCompatActivity {
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(AnnouncementDetailsPage.this, AnnouncementPage.class);
-                startActivity(intent);
+                finish();
             }
         });
     }
