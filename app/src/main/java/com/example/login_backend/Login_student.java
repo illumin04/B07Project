@@ -25,6 +25,7 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Login_student extends AppCompatActivity {
     //ActivityMainBinding binding;
+    private StudentLoginPresenter presenter;
     boolean adminb=false;
     DatabaseReference reference;
     FirebaseDatabase db;
@@ -52,6 +53,7 @@ public class Login_student extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_student);
+        presenter = new StudentLoginPresenter(this);
         mAuth= FirebaseAuth.getInstance();
         editusername=findViewById(R.id.username);
         editTextEmail=findViewById(R.id.email);
@@ -136,5 +138,20 @@ public class Login_student extends AppCompatActivity {
                         });
             }
         });
+    }
+    public void showLoading() {
+        progressBar.setVisibility(View.VISIBLE);
+    }
+    public void showLoginError(String errorMessage) {
+        Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT).show();
+    }
+    public void hideLoading() {
+        progressBar.setVisibility(View.GONE);
+    }
+    public void navigateTo(Class<?> destinationActivity, String username) {
+        Intent intent = new Intent(getApplicationContext(), destinationActivity);
+        intent.putExtra("username", username);
+        startActivity(intent);
+        finish();
     }
 }

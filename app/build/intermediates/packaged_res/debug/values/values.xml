@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="green">#00FF00</color>
+    <color name="red">#FF0000</color>
     <color name="white">#FFFFFFFF</color>
     <dimen name="fab_margin">16dp</dimen>
     <string name="action_settings">Settings</string>
@@ -9,6 +11,10 @@
     <string name="click_to_login">click to login</string>
     <string name="click_to_register"/>
     <string name="email">Email</string>
+    <string name="eventMessage1">"Please provide event name!"</string>
+    <string name="eventMessage2">"Please provide description of the event"</string>
+    <string name="eventMessage3">"Please provide a limit of the number of students" +
+                            "that can participate"</string>
     <string name="first_fragment_label">First Fragment</string>
     <string name="gcm_defaultSenderId" translatable="false">81821667356</string>
     <string name="google_api_key" translatable="false">AIzaSyAuV-oREIQHx8K9aObTM6OlMJn73p3sUgU</string>

@@ -4,26 +4,7 @@
             "outputFile": "com.example.login_backend.app-mergeDebugResources-46:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/longqiruichen/.gradle/caches/transforms-3/0852b773c0a4cdc9c1478973d0c93d4d/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "200"
-                    },
-                    "to": {
-                        "startLines": "50",
-                        "startColumns": "4",
-                        "startOffsets": "3232",
-                        "endLines": "52",
-                        "endColumns": "12",
-                        "endOffsets": "3377"
-                    }
-                },
-                {
-                    "source": "/Users/longqiruichen/.gradle/caches/transforms-3/049ae63a1950a4725ff9b326c87f6ca3/transformed/material-1.10.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\KS\\.gradle\\caches\\transforms-3\\049ae63a1950a4725ff9b326c87f6ca3\\transformed\\material-1.10.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,5,9,13,16,21,25,28,31,34,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/Users/longqiruichen/.gradle/caches/transforms-3/8e20b60b6684779ba0c1b0f25d671be6/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\KS\\.gradle\\caches\\transforms-3\\0852b773c0a4cdc9c1478973d0c93d4d\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "50",
+                        "startColumns": "4",
+                        "startOffsets": "3232",
+                        "endLines": "52",
+                        "endColumns": "12",
+                        "endOffsets": "3377"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\KS\\.gradle\\caches\\transforms-3\\8e20b60b6684779ba0c1b0f25d671be6\\transformed\\appcompat-1.6.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -53,14 +53,14 @@
                     }
                 },
                 {
-                    "source": "/Users/longqiruichen/AndroidStudioProjects/Login_backend/app/src/main/res/values-v23/themes.xml",
+                    "source": "C:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\src\\main\\res\\values-v23\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
-                        "startOffsets": "64",
+                        "startOffsets": "66",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "440"
+                        "endOffsets": "447"
                     },
                     "to": {
                         "startLines": "53",
