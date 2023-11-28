@@ -28,9 +28,6 @@ id action_settings
 id announcement1
 id announcements_btn
 id announcements_tv
-id answer1EditText
-id answer2EditText
-id answer3EditText
 id backButton
 id back_btn
 id both_qualify_tv
@@ -53,6 +50,7 @@ id eventMessage
 id events_btn
 id events_tv
 id feedback
+id header_title
 id heading
 id homeButton
 id loginnow
@@ -95,7 +93,6 @@ id question4
 id question5
 id ratings
 id regesternow
-id resultTextView
 id results
 id rsvpButton
 id scale
@@ -133,7 +130,6 @@ layout activity_new_event
 layout activity_out_cspost_qualification
 layout activity_out_math_post_qualification
 layout activity_out_stats_post_qualification
-layout activity_post_qualification
 layout activity_post_qualification_home
 layout activity_register
 layout activity_stats_post_qualification_home

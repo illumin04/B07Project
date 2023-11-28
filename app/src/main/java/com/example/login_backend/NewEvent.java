@@ -31,6 +31,14 @@ public class NewEvent extends AppCompatActivity {
         // limit.setText(); // backend pass string to setText
         EditText eventMessage = findViewById(R.id.eventMessage);
 
+        Button backButton = findViewById(R.id.back_btn);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
         Button submitButton = findViewById(R.id.submit_btn);
         submitButton.setOnClickListener(new View.OnClickListener() {
             @Override

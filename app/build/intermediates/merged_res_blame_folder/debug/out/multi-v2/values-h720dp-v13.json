@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.login_backend.app-mergeDebugResources-46:/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "com.example.login_backend.app-mergeDebugResources-3:/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KS\\.gradle\\caches\\transforms-3\\8e20b60b6684779ba0c1b0f25d671be6\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/8e20b60b6684779ba0c1b0f25d671be6/transformed/appcompat-1.6.1/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

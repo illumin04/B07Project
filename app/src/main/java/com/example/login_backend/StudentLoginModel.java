@@ -4,7 +4,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-public class StudentLoginModel {    private FirebaseAuth mAuth;
+public class StudentLoginModel {
+    private FirebaseAuth mAuth;
     private DatabaseReference reference;
     private FirebaseDatabase db;
     private boolean admin;
@@ -25,3 +26,4 @@ public class StudentLoginModel {    private FirebaseAuth mAuth;
         void onLoginFailure(String errorMessage);
     }
 }
+

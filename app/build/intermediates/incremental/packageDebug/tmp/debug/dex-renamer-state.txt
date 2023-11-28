@@ -1,9 +1,9 @@
-#Mon Nov 27 18:33:08 EST 2023
-base.0=C\:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\4\\classes.dex
-base.3=C\:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\5\\classes.dex
-base.4=C\:\\Users\\KS\\AndroidStudioProjects\\B07Project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+#Tue Nov 28 12:51:08 EST 2023
+base.0=/Users/gogo/Downloads/B07Project-main/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/gogo/Downloads/B07Project-main/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/gogo/Downloads/B07Project-main/app/build/intermediates/dex/debug/mergeProjectDexDebug/4/classes.dex
+base.3=/Users/gogo/Downloads/B07Project-main/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex
+base.4=/Users/gogo/Downloads/B07Project-main/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=4/classes.dex
