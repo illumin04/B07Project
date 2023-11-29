@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-fr/values-fr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,560,664,782",
+                        "endColumns": "97,101,98,101,103,103,117,100",
+                        "endOffsets": "148,250,349,451,555,659,777,878"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3523,3621,3723,3822,3924,4028,4132,12601",
+                        "endColumns": "97,101,98,101,103,103,117,100",
+                        "endOffsets": "3616,3718,3817,3919,4023,4127,4245,12697"
+                    }
+                },
+                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/5e77c96486ce63cadcb7cebd45078f42/transformed/play-services-base-18.1.0/res/values-fr/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "4563,4669,4849,4979,5088,5259,5392,5513,5791,5969,6081,6266,6402,6562,6741,6814,6881",
                         "endColumns": "105,179,129,108,170,132,120,112,177,111,184,135,159,178,72,66,83",
                         "endOffsets": "4664,4844,4974,5083,5254,5387,5508,5621,5964,6076,6261,6397,6557,6736,6809,6876,6960"
-                    }
-                },
-                {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-fr/values-fr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,354,456,560,664,782",
-                        "endColumns": "97,101,98,101,103,103,117,100",
-                        "endOffsets": "148,250,349,451,555,659,777,878"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3523,3621,3723,3822,3924,4028,4132,12601",
-                        "endColumns": "97,101,98,101,103,103,117,100",
-                        "endOffsets": "3616,3718,3817,3919,4023,4127,4245,12697"
                     }
                 },
                 {

@@ -4,23 +4,6 @@
             "outputFile": "com.example.login_backend.app-mergeDebugResources-3:/values-gu/values-gu.xml",
             "map": [
                 {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-gu/values-gu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,252,349,451,553,651,773",
-                        "endColumns": "93,102,96,101,101,97,121,100",
-                        "endOffsets": "144,247,344,446,548,646,768,869"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3433,3527,3630,3727,3829,3931,4029,12073",
-                        "endColumns": "93,102,96,101,101,97,121,100",
-                        "endOffsets": "3522,3625,3722,3824,3926,4024,4146,12169"
-                    }
-                },
-                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/5e77c96486ce63cadcb7cebd45078f42/transformed/play-services-base-18.1.0/res/values-gu/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,6 +18,23 @@
                         "startOffsets": "4454,4562,4728,4853,4965,5103,5225,5336,5583,5731,5839,6003,6128,6271,6421,6482,6548",
                         "endColumns": "107,165,124,111,137,121,110,99,147,107,163,124,142,149,60,65,81",
                         "endOffsets": "4557,4723,4848,4960,5098,5220,5331,5431,5726,5834,5998,6123,6266,6416,6477,6543,6625"
+                    }
+                },
+                {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-gu/values-gu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,252,349,451,553,651,773",
+                        "endColumns": "93,102,96,101,101,97,121,100",
+                        "endOffsets": "144,247,344,446,548,646,768,869"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3433,3527,3630,3727,3829,3931,4029,12073",
+                        "endColumns": "93,102,96,101,101,97,121,100",
+                        "endOffsets": "3522,3625,3722,3824,3926,4024,4146,12169"
                     }
                 },
                 {

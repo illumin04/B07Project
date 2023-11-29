@@ -16,22 +16,22 @@
 12-->[com.google.firebase:firebase-auth:22.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/59009302976ed7483234a299ee2d5a59/transformed/firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
 13
 14    <permission
-14-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:22:5-24:47
+14-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
 15        android:name="com.example.login_backend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:23:9-81
+15-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
 16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:24:9-44
+16-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
 17
 18    <uses-permission android:name="com.example.login_backend.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:26:22-94
+18-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 19
 20    <application
 20-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:7:5-121:19
 21        android:allowBackup="true"
 21-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.13.0-alpha01] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/AndroidManifest.xml:28:18-86
+22-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
 23-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:9:9-65
 24        android:debuggable="true"

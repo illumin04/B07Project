@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-iw/values-iw.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,149,251,348,445,546,646,752",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "144,246,343,440,541,641,747,848"
-                    },
-                    "to": {
-                        "startLines": "39,40,41,42,43,44,45,134",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3437,3531,3633,3730,3827,3928,4028,11757",
-                        "endColumns": "93,101,96,96,100,99,105,100",
-                        "endOffsets": "3526,3628,3725,3822,3923,4023,4129,11853"
-                    }
-                },
-                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/5e77c96486ce63cadcb7cebd45078f42/transformed/play-services-base-18.1.0/res/values-iw/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,6 +35,23 @@
                         "startOffsets": "4420,4523,4677,4802,4906,5045,5170,5282,5503,5639,5743,5888,6011,6145,6290,6350,6410",
                         "endColumns": "102,153,124,103,138,124,111,102,135,103,144,122,133,144,59,59,80",
                         "endOffsets": "4518,4672,4797,4901,5040,5165,5277,5380,5634,5738,5883,6006,6140,6285,6345,6405,6486"
+                    }
+                },
+                {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-iw/values-iw.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,149,251,348,445,546,646,752",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "144,246,343,440,541,641,747,848"
+                    },
+                    "to": {
+                        "startLines": "39,40,41,42,43,44,45,134",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3437,3531,3633,3730,3827,3928,4028,11757",
+                        "endColumns": "93,101,96,96,100,99,105,100",
+                        "endOffsets": "3526,3628,3725,3822,3923,4023,4129,11853"
                     }
                 },
                 {

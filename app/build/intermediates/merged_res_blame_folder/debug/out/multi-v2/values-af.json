@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-af/values-af.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,353,451,558,667,787",
+                        "endColumns": "97,101,97,97,106,108,119,100",
+                        "endOffsets": "148,250,348,446,553,662,782,883"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3418,3516,3618,3716,3814,3921,4030,12010",
+                        "endColumns": "97,101,97,97,106,108,119,100",
+                        "endOffsets": "3511,3613,3711,3809,3916,4025,4145,12106"
+                    }
+                },
+                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/5e77c96486ce63cadcb7cebd45078f42/transformed/play-services-base-18.1.0/res/values-af/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -52,23 +69,6 @@
                         "startOffsets": "6641,6898,7000,7113",
                         "endColumns": "104,101,112,99",
                         "endOffsets": "6741,6995,7108,7208"
-                    }
-                },
-                {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-af/values-af.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,353,451,558,667,787",
-                        "endColumns": "97,101,97,97,106,108,119,100",
-                        "endOffsets": "148,250,348,446,553,662,782,883"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3418,3516,3618,3716,3814,3921,4030,12010",
-                        "endColumns": "97,101,97,97,106,108,119,100",
-                        "endOffsets": "3511,3613,3711,3809,3916,4025,4145,12106"
                     }
                 },
                 {

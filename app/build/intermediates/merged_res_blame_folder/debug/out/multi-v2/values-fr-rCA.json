@@ -4,23 +4,6 @@
             "outputFile": "com.example.login_backend.app-mergeDebugResources-3:/values-fr-rCA/values-fr-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-fr-rCA/values-fr-rCA.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,354,456,560,664,778",
-                        "endColumns": "97,101,98,101,103,103,113,100",
-                        "endOffsets": "148,250,349,451,555,659,773,874"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3578,3676,3778,3877,3979,4083,4187,12673",
-                        "endColumns": "97,101,98,101,103,103,113,100",
-                        "endOffsets": "3671,3773,3872,3974,4078,4182,4296,12769"
-                    }
-                },
-                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/3f3a12f1a8a3e2b8f3c6c1d9c75b6737/transformed/browser-1.4.0/res/values-fr-rCA/values-fr-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5",
@@ -52,6 +35,23 @@
                         "startOffsets": "333,444,551,661,748,854,984,1069,1149,1240,1333,1431,1526,1626,1719,1812,1907,1998,2089,2175,2285,2396,2499,2610,2718,2825,2984,12586",
                         "endColumns": "110,106,109,86,105,129,84,79,90,92,97,94,99,92,92,94,90,90,85,109,110,102,110,107,106,158,98,86",
                         "endOffsets": "439,546,656,743,849,979,1064,1144,1235,1328,1426,1521,1621,1714,1807,1902,1993,2084,2170,2280,2391,2494,2605,2713,2820,2979,3078,12668"
+                    }
+                },
+                {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-fr-rCA/values-fr-rCA.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,255,354,456,560,664,778",
+                        "endColumns": "97,101,98,101,103,103,113,100",
+                        "endOffsets": "148,250,349,451,555,659,773,874"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3578,3676,3778,3877,3979,4083,4187,12673",
+                        "endColumns": "97,101,98,101,103,103,113,100",
+                        "endOffsets": "3671,3773,3872,3974,4078,4182,4296,12769"
                     }
                 },
                 {

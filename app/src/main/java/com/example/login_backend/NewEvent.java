@@ -6,8 +6,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -28,7 +32,7 @@ public class NewEvent extends AppCompatActivity {
         event_details.setSelection(0);
         // event_details.setText(); // backend pass string to setText()
         EditText limit = findViewById(R.id.stu_limit);
-        // limit.setText(); // backend pass string to setText
+//        limit.setSelection(14);
         EditText eventMessage = findViewById(R.id.eventMessage);
 
         Button backButton = findViewById(R.id.back_btn);
@@ -60,11 +64,23 @@ public class NewEvent extends AppCompatActivity {
         });
     }
 
-    private void submitEvent(String name, String details, String limit){
+    private void submitEvent(String eventName, String details, String limit){
         DatabaseReference ref = db.getReference().child("Events");
-        ref.child(name).child("details").setValue(details);
-        ref.child(name).child("limit").setValue(Integer.parseInt(limit));
-        ref.child(name).child("rsvpCount").setValue(0);
-        ref.child(name).child("rsvp").child("rsvpCount").setValue("0");
+        DatabaseReference countRef = ref.child("eventCount");
+        countRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                int c = Integer.parseInt(task.getResult().getValue().toString());
+                c += 1;
+                String name = "event" + c;
+                ref.child(name).child("details").setValue(details);
+                ref.child(name).child("limit").setValue(limit);
+                ref.child(name).child("rsvp").child("rsvpCount").setValue("0");
+                ref.child(name).child("ratings").child("rateCount").setValue("0");
+                ref.child(name).child("ratings").child("totalRate").setValue("0");
+                ref.child(name).child("name").setValue(eventName);
+                ref.child("eventCount").setValue(Integer.toString(c));
+            }
+        });
     }
 }

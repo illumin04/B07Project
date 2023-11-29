@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:textSize="30dp"
-            android:text="Event Name: "
+            android:hint="Event name"
             android:textStyle="bold"/>
 
         <EditText
@@ -25,7 +25,7 @@
             android:textSize="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="40dp"
-            android:hint="Enter details here"/>
+            android:hint="Event details"/>
 
         <TextView
             android:layout_width="wrap_content"

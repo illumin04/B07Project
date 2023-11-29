@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -15,8 +14,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="30dp"
-            android:text="Event Name: "
+            android:textSize="30sp"
+            android:hint="Enter event name"
             android:textStyle="bold"/>
 
         <EditText
@@ -25,8 +24,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/name"
             android:layout_marginTop="10dp"
-            android:textSize="20dp"
-            android:hint="Enter details here" />
+            android:textSize="20sp"
+            android:hint="Enter event details" />
 
         <EditText
             android:id="@+id/stu_limit"
@@ -34,9 +33,9 @@
             android:layout_height="70dp"
             android:layout_below="@+id/details"
             android:layout_marginTop="30dp"
-            android:text="Student Limit: "
+            android:hint="Enter student limit"
             android:textStyle="bold"
-            android:textSize="30dp"
+            android:textSize="30sp"
             android:inputType="number"
             android:maxLength="10000"/>
 

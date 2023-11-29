@@ -33,8 +33,6 @@ id back_btn
 id both_qualify_tv
 id btn_register
 id btnlogin
-id button_first
-id button_second
 id checkButton
 id checkbox
 id commentRatingButton
@@ -42,6 +40,7 @@ id complaint1
 id complaint_tv
 id complaints_btn
 id cs
+id currentReg
 id detailedAnnouncementTextView
 id details
 id email
@@ -53,6 +52,7 @@ id feedback
 id header_title
 id heading
 id homeButton
+id linearLayout
 id loginnow
 id major_note
 id major_qualify_tv
@@ -95,6 +95,7 @@ id ratings
 id regesternow
 id results
 id rsvpButton
+id rsvpLimit
 id scale
 id signin
 id specialist_note
@@ -104,8 +105,6 @@ id stu_limit
 id submitButton
 id submit_area
 id submit_btn
-id textview_first
-id textview_second
 id username
 id welcome_tv
 id yes
@@ -140,8 +139,6 @@ layout activity_view_announcements
 layout activity_view_complaints
 layout activity_view_event
 layout content_main
-layout fragment_first
-layout fragment_second
 menu menu_main
 mipmap ic_launcher
 mipmap ic_launcher_round
@@ -150,7 +147,6 @@ string action_settings
 string admin_page
 string app_name
 string click_to_login
-string click_to_register
 string email
 string eventMessage1
 string eventMessage2
@@ -162,7 +158,6 @@ string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
 string login
-string lorem_ipsum
 string next
 string password
 string previous

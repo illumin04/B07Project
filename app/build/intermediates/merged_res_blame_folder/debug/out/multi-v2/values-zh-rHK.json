@@ -57,23 +57,6 @@
                     }
                 },
                 {
-                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/f5edf41dab8dd349ea4cf922f50b46ba/transformed/core-1.13.0-alpha01/res/values-zh-rHK/values-zh-rHK.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,147,246,340,434,527,620,716",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "142,241,335,429,522,615,711,812"
-                    },
-                    "to": {
-                        "startLines": "38,39,40,41,42,43,44,133",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "3195,3287,3386,3480,3574,3667,3760,10748",
-                        "endColumns": "91,98,93,93,92,92,95,100",
-                        "endOffsets": "3282,3381,3475,3569,3662,3755,3851,10844"
-                    }
-                },
-                {
                     "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/5e77c96486ce63cadcb7cebd45078f42/transformed/play-services-base-18.1.0/res/values-zh-rHK/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -88,6 +71,23 @@
                         "startOffsets": "4126,4227,4355,4470,4572,4679,4795,4897,5098,5208,5309,5438,5553,5660,5768,5823,5880",
                         "endColumns": "100,127,114,101,106,115,101,92,109,100,128,114,106,107,54,56,71",
                         "endOffsets": "4222,4350,4465,4567,4674,4790,4892,4985,5203,5304,5433,5548,5655,5763,5818,5875,5947"
+                    }
+                },
+                {
+                    "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/res/values-zh-rHK/values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,147,246,340,434,527,620,716",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "142,241,335,429,522,615,711,812"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41,42,43,44,133",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "3195,3287,3386,3480,3574,3667,3760,10748",
+                        "endColumns": "91,98,93,93,92,92,95,100",
+                        "endOffsets": "3282,3381,3475,3569,3662,3755,3851,10844"
                     }
                 },
                 {
