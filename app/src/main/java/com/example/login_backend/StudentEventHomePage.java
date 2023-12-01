@@ -27,14 +27,15 @@ public class StudentEventHomePage extends AppCompatActivity {
         setContentView(R.layout.activity_student_event_home_page);
         Bundle extras = getIntent().getExtras();
         db = FirebaseDatabase.getInstance();
-        DatabaseReference ref = db.getReference();
-//        String eventName = null;
-//        if(extras != null){
-//            eventName = extras.getString("eventName");
-//        }
+
+        String eventName = null;
+        if(extras != null){
+            eventName = extras.getString("eventName");
+        }
 
         //show detailed event Information on the page
-//        showInfo(eventName);
+        showInfo(eventName);
+        DatabaseReference ref = db.getReference().child("Events").child(eventName);
 
 
         Button rsvp = findViewById(R.id.rsvpButton);
@@ -44,14 +45,24 @@ public class StudentEventHomePage extends AppCompatActivity {
                 String username = null;
                 if (extras != null) {
                     username = extras.getString("username");
-
+                    DatabaseReference userReg = ref.child("rsvp").child(username);
+                    userReg.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                        @Override
+                        public void onComplete(@NonNull Task<DataSnapshot> task) {
+                            if(task.getResult().exists()){
+                                Toast.makeText(StudentEventHomePage.this,
+                                        "Already registered!", Toast.LENGTH_SHORT).show();
+                            }else{
+                                String username = extras.getString("username");
+                                String eventName = extras.getString("eventName");
+                                TextView limit_view = findViewById(R.id.rsvpLimit);
+                                Rsvp(username, eventName,
+                                        Integer.parseInt(limit_view.getText()
+                                                .toString().substring(29)));
+                            }
+                        }
+                    });
                 }
-
-                Toast.makeText(StudentEventHomePage.this,
-                        "Cannot register for the event!", Toast.LENGTH_SHORT).show();
-
-                Toast.makeText(StudentEventHomePage.this,
-                        "Successfully registered for the event!", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -63,10 +74,13 @@ public class StudentEventHomePage extends AppCompatActivity {
                 Intent intent = new Intent(StudentEventHomePage.this,
                         StudentEventFeedbackPage.class);
                 String username = null;
+                String eventName = null;
                 if (extras != null) {
                     username = extras.getString("username");
+                    eventName = extras.getString("eventName");
                 }
                 intent.putExtra("username", username);
+                intent.putExtra("eventName", eventName);
                 startActivity(intent);
             }
         });
@@ -120,7 +134,7 @@ public class StudentEventHomePage extends AppCompatActivity {
         ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
-                String limit = "Event limit of registration: " +
+                String limit = "Registration limit: " +
                     task.getResult().getValue(String.class);
                 TextView event_name = findViewById(R.id.rsvpLimit);
                 event_name.setText(limit);
@@ -134,11 +148,57 @@ public class StudentEventHomePage extends AppCompatActivity {
         ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
             public void onComplete(@NonNull Task<DataSnapshot> task) {
-                String rsvpCount = "Current Registered count: "
+                String rsvpCount = "Current registered: "
                         + task.getResult().getValue(String.class);
                 TextView event_name = findViewById(R.id.currentReg);
                 event_name.setText(rsvpCount);
             }
         });
+    }
+
+    private void Rsvp(String username, String eventName, int limit){
+        DatabaseReference ref = db.getReference().child("Events")
+                .child(eventName).child("rsvp").child("rsvpCount");
+        ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                int rsvpCount = Integer.parseInt(task.getResult().getValue(String.class));
+                if(rsvpCount >= limit){
+                    RegisterFailMessage();
+                }else{
+                    Register(username, eventName);
+                }
+            }
+        });
+    }
+
+    private void Register(String username, String eventName){
+        DatabaseReference ref = db.getReference().child("Events")
+                .child(eventName).child("rsvp");
+        ref.child(username).setValue(username);
+        ref.child("rsvpCount").get()
+                .addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        int count = Integer.parseInt(task.getResult().getValue(String.class));
+                        count += 1;
+                        ref.child("rsvpCount").setValue(Integer.toString(count));
+                        TextView current = findViewById(R.id.currentReg);
+                        String update = "Current registered: " + Integer.toString(count);
+                        current.setText(update);
+                        SuccessfullyRegistered();
+                    }
+                });
+    }
+
+    private void RegisterFailMessage(){
+        Toast.makeText(StudentEventHomePage.this,
+                "Event capacity full, cannot register!", Toast.LENGTH_SHORT).show();
+    }
+
+
+    private void SuccessfullyRegistered(){
+        Toast.makeText(StudentEventHomePage.this,
+                "Successfully registered for the event!", Toast.LENGTH_SHORT).show();
     }
 }
