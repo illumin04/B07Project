@@ -3872,7 +3872,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_main
-layout activity_admin_page
 layout activity_announcement_details_page
 layout activity_announcement_page
 layout activity_complaint_details_page

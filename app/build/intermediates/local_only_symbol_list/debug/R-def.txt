@@ -109,7 +109,6 @@ id username
 id welcome_tv
 id yes
 layout activity_admin_main
-layout activity_admin_page
 layout activity_announcement_details_page
 layout activity_announcement_page
 layout activity_complaint_details_page
