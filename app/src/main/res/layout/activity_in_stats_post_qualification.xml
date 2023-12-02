@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For each of the following POSt requirements, select True or False to check your qualification."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Question 1: Completed all of CSC A08, CSC/MAT A67, CSC A48, MAT A22, MAT A31, MAT A37."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" />
+
+        <RadioGroup
+            android:id="@+id/q1_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/q1_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/q1_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/major_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q1_radio"
+            android:text="Questions 2 is for applying for Statistics MAJOR ONLY: "
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/major_note"
+            android:text="Question 2: A grade point average of at least 2.3 across the following four courses: CSC A08/A20, MAT A22, MAT A30/A31, MAT A36/A37."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:padding="10dp" />
+
+        <RadioGroup
+            android:id="@+id/q2_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question2"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/q2_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/q2_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/specialist_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q2_radio"
+            android:text="Questions 3 is for applying for Statistics SPECIALIST ONLY: "
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 3: A grade point average of at least 2.5 across the following five courses: CSC A08, CSC/MAT A67, MAT A22, MAT A31, MAT A37."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/specialist_note"
+            android:layout_marginTop="20dp"
+            android:padding="10dp" />
+
+        <RadioGroup
+            android:id="@+id/q3_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question3"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/q3_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/q3_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/ml_specialist_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q3_radio"
+            android:text="Questions 4 is for applying for Statistics SPECIALIST in Machine Learning and Data Specialist Stream ONLY: "
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 4: A grade of at least B in CSC A48."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/ml_specialist_note"
+            android:layout_marginTop="20dp"
+            android:padding="10dp" />
+
+        <RadioGroup
+            android:id="@+id/q4_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question4"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/q4_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textColor="@color/black" />
+
+            <RadioButton
+                android:id="@+id/q4_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textColor="@color/black" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:layout_below="@id/q4_radio"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:text="Back"
+            android:layout_below="@id/q4_radio"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/backButton"
+            android:layout_marginTop="20dp"
+            android:text="Your Results: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/major_qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/results"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Congratulations! You QUALIFY for Major in Statistics POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/other_specialist_qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/major_qualify_tv"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Congratulations! You QUALIFY for Specialist in Statistics: Quantitative Finance or Statistical Science Stream Subject POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/ml_specialist_qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/other_specialist_qualify_tv"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Congratulations! You QUALIFY for Specialist in Statistics: Machine Learning and Data Specialist Stream Subject POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/blue" />
+
+        <TextView
+            android:id="@+id/not_qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/results"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Sorry! You DO NOT qualify for Statistics (Major or Specialist) Subject POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/red" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ml_specialist_qualify_tv"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:text="Home"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>

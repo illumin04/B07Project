@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For each of the following POSt requirements, select True or False to check your qualification."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Question 1: Completed all of CSC A08, CSC/MAT A67, CSC A48, MAT A22, MAT A31, MAT A37."
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/q1_radio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/question1"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <RadioButton
+                android:id="@+id/q1_true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="True"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/q1_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="False"
+                android:textColor="@color/black"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/checkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check"
+            android:layout_below="@id/q1_radio"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_below="@id/q1_radio"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <TextView
+            android:id="@+id/results"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/backButton"
+            android:layout_marginTop="20dp"
+            android:text="Your Results: "
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/results"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Congratulations! You QUALIFY for Statistics Subject POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/not_qualify_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/results"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Sorry! You DO NOT qualify for Statistics Subject POSt!"
+            android:textSize="20sp"
+            android:textColor="@color/red"/>
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/qualify_tv"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/baseline_home_24"
+            android:text="Home"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/announce_complaint">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Event name"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Event details"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="Your comment for this event:"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="40dp"
+            android:hint="Enter text here"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="35sp"
+            android:text="Your rating for this event (on a scale of 0 to 100):"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter number here"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            android:layout_marginBottom="50dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/baseline_arrow_back_24"
+                android:text="Back"
+                android:textSize="20sp"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="10dp"
+                android:background="@color/black" />
+
+            <Button
+                android:id="@+id/submitButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginStart="150dp"
+                android:layout_toEndOf="@+id/backButton"
+                android:text="Submit"
+                android:textSize="20sp"
+                android:background="@color/black" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/announce_complaint">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="20dp"
+            android:textSize="30sp"
+            android:textColor="@color/design_default_color_primary"
+            android:text="Announcement Details: "
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:hint="Enter details here" />
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details"
+            android:drawableLeft="@drawable/baseline_arrow_back_24"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="10dp"
+            android:text="Back"
+            android:textSize="20sp"
+            android:layout_gravity="start|bottom"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/submit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details"
+            android:layout_toEndOf="@+id/back_btn"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="140dp"
+            android:layout_gravity="bottom|end"
+            android:background="@color/black"
+            android:text="Submit"
+            android:exported="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>

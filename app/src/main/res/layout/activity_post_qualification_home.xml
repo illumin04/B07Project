@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to POSt Admission Checklist! Please answer the following question to determine your major."
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:text="Which major are you registered in?"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/cs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/question1"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Computer Science (CS)"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/math"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cs"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Mathematics (Math)"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/math"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="Statistics (Stats)"
+                android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_below="@id/stats"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp" />
+
+    </RelativeLayout>
+</ScrollView>

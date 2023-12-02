@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Login_backend</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="eventMessage1">Please provide event name!</string>
+    <string name="eventMessage2">Please provide description of the event</string>
+    <string name="eventMessage3">Please provide a limit of the number of students that can participate</string>
+
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">click to login</string>
+    <string name="register_now">Register now</string>
+    <string name="username">Username</string>
+    <string name="student_page">Student_page</string>
+    <string name="admin_page">admin_page</string>
+</resources>
