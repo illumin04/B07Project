@@ -62,10 +62,12 @@ public class Login_student extends AppCompatActivity {
                 //usertype=== (checkbox)
                 if(TextUtils.isEmpty(email)){
                     Toast.makeText(Login_student.this,"Enter email", Toast.LENGTH_SHORT).show();
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
                 if(TextUtils.isEmpty(password)) {
                     Toast.makeText(Login_student.this, "Enter password", Toast.LENGTH_SHORT).show();
+                    progressBar.setVisibility(View.INVISIBLE);
                     return;
                 }
                 progressBar.setVisibility(View.VISIBLE);
@@ -77,8 +79,15 @@ public class Login_student extends AppCompatActivity {
                 reference.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<DataSnapshot> task) {
-                        boolean adminb = task.getResult().getValue(Boolean.class);
-                        logIn(adminb);
+                        if(task.getResult().getValue() == null){
+                            Toast.makeText(Login_student.this,
+                                    "Username does not exist!", Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.INVISIBLE);
+                        }else{
+                            boolean adminb = task.getResult().getValue(Boolean.class);
+                            logIn(adminb);
+                        }
+
                     }
                 });
 
@@ -112,7 +121,7 @@ public class Login_student extends AppCompatActivity {
                             // If sign in fails, display a message to the user.
                             Toast.makeText(Login_student.this, "Authentication failed.",
                                     Toast.LENGTH_SHORT).show();
-
+                            progressBar.setVisibility(View.INVISIBLE);
                         }
                     }
                 });

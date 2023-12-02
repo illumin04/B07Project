@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/studentuser"
+    android:background="@drawable/main"
     tools:context=".StudentHomePage">
 
     <TextView
@@ -17,7 +17,7 @@
         android:gravity="center"
         android:text="Welcome Student"
         android:textColor="@color/design_default_color_primary_dark"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:textStyle="bold" />
 
     <com.google.android.material.button.MaterialButton
@@ -80,7 +80,8 @@
         android:layout_below="@+id/Event"
         android:layout_marginStart="10dp"
         android:layout_marginTop="130dp"
-        android:textSize="20sp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp" />
 

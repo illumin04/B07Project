@@ -1,6 +1,7 @@
 package com.example.login_backend;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -114,6 +115,7 @@ public class ViewAnnouncements extends AppCompatActivity {
         newAnnouncement.setLayoutParams(params);
         newAnnouncement.setText(content + "\n");
         newAnnouncement.setTextSize(20);
+        newAnnouncement.setTextColor(Color.rgb(100, 100, 100));
         ll.addView(newAnnouncement);
     }
 }

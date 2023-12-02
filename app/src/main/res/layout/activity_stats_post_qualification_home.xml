@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/post">
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
         <TextView
             android:id="@+id/heading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Welcome to Stats POSt Admission Checklist! Please answer the following question."
-            android:textSize="19dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             android:layout_marginTop="50dp"
             android:padding="10dp"/>
 
@@ -21,7 +23,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/heading"
             android:text="Are you in the Stats Admission Category?"
-            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:padding="10dp"/>
 
@@ -33,7 +36,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginStart="60dp"
             android:text="Yes"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/black"/>
 
         <Button
@@ -45,7 +48,7 @@
             android:layout_marginStart="100dp"
             android:layout_below="@id/question1"
             android:text="No"
-            android:textSize="20dp"
+            android:textSize="20sp"
             android:background="@color/black"/>
 
         <Button

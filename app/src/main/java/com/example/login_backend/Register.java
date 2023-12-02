@@ -80,12 +80,12 @@ public class Register extends AppCompatActivity {
             }
         });
         //admin box check
-        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                admin=checkBox.isChecked();
-            }
-        });
+//        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                admin=checkBox.isChecked();
+//            }
+//        });
         buttonReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -111,7 +111,7 @@ public class Register extends AppCompatActivity {
                             && password.length() >= 6)
                     {
                         //Log.d("tag","Entering a loop");
-                        admin=checkBox.isChecked();
+                        admin=false;
                         Users users= new Users(username,password,admin);
                         db = FirebaseDatabase.getInstance();
                         reference=db.getReference("Users");

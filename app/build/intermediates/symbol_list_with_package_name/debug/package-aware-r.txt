@@ -1405,6 +1405,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -3011,8 +3012,9 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
-drawable andriod_login
-drawable andriod_registration
+drawable android_login
+drawable android_registration
+drawable announce_complaint
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
@@ -3052,6 +3054,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable feedback
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_black_24
@@ -3086,6 +3089,7 @@ drawable m3_tabs_background
 drawable m3_tabs_line_indicator
 drawable m3_tabs_rounded_line_indicator
 drawable m3_tabs_transparent_background
+drawable main
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -3147,6 +3151,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable post
 drawable studentuser
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3300,7 +3305,6 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
-id commentRatingButton
 id complaintLayout1
 id complaintLayout2
 id complaint_tv
@@ -3337,7 +3341,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detailedAnnouncementTextView
 id details
 id dialog_button
 id dimensions
@@ -3877,10 +3880,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_admin_main
 layout activity_announcement_page
-layout activity_complaint_details_page
 layout activity_complaints_page
 layout activity_cspost_qualification_home
-layout activity_detailed_announcement
 layout activity_event_page
 layout activity_feedback_summary_page
 layout activity_in_cspost_qualification

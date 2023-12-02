@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,7 +34,7 @@ public class NewEvent extends AppCompatActivity {
         // event_details.setText(); // backend pass string to setText()
         EditText limit = findViewById(R.id.stu_limit);
 //        limit.setSelection(14);
-        EditText eventMessage = findViewById(R.id.eventMessage);
+        TextView eventMessage = findViewById(R.id.eventMessage);
 
         Button backButton = findViewById(R.id.back_btn);
         backButton.setOnClickListener(new View.OnClickListener() {

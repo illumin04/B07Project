@@ -1,6 +1,7 @@
 package com.example.login_backend;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -198,6 +199,7 @@ public class FeedbackSummaryPage extends AppCompatActivity {
         String text = "Currently no feedback!";
         newView.setText(text);
         newView.setTextSize(20);
+        newView.setTextColor(Color.rgb(90,90,90));
         ll.addView(newView);
     }
 
@@ -247,6 +249,7 @@ public class FeedbackSummaryPage extends AppCompatActivity {
         String text = username + ":  " + content;
         comment.setText(text);
         comment.setTextSize(20);
+        comment.setTextColor(Color.rgb(90,90,90));
         ll.addView(comment);
     }
 }

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/announce_complaint">
 
     <LinearLayout
-
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center_horizontal"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
         <TextView
             android:id="@+id/announcements_tv"
@@ -17,7 +16,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="List of Announcements"
-            android:textSize="35dp"/>
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="35sp" />
 
         <Button
             android:id="@+id/new_announcement_btn"
@@ -25,27 +25,30 @@
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="Create New Announcement"
-            android:textSize="30dp"
-            android:background="@color/black"/>
+            android:textSize="30sp"
+            android:background="@color/black" />
+
         <LinearLayout
             android:id="@+id/announcementLayout"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
         </LinearLayout>
 
-
         <Button
             android:id="@+id/back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="start|bottom"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:background="@color/black"
             android:drawableLeft="@drawable/baseline_arrow_back_24"
             android:text="Back"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 </ScrollView>

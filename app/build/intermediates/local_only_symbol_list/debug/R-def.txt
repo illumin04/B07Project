@@ -1,19 +1,24 @@
 R_DEF: Internal format may change without notice
 local
 color black
+color blue
 color green
 color red
 color white
 dimen fab_margin
-drawable andriod_login
-drawable andriod_registration
+drawable android_login
+drawable android_registration
+drawable announce_complaint
 drawable background
 drawable baseline_arrow_back_24
 drawable baseline_home_24
 drawable baseline_password_24
 drawable baseline_person_add_24
+drawable feedback
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable main
+drawable post
 drawable studentuser
 id Announcement
 id Complaint
@@ -35,7 +40,6 @@ id both_qualify_tv
 id btn_register
 id btnlogin
 id checkButton
-id commentRatingButton
 id complaintLayout1
 id complaintLayout2
 id complaint_tv
@@ -43,7 +47,6 @@ id complaints_btn
 id countMsg
 id cs
 id currentReg
-id detailedAnnouncementTextView
 id details
 id email
 id eventLayout
@@ -113,10 +116,8 @@ id welcome_tv
 id yes
 layout activity_admin_main
 layout activity_announcement_page
-layout activity_complaint_details_page
 layout activity_complaints_page
 layout activity_cspost_qualification_home
-layout activity_detailed_announcement
 layout activity_event_page
 layout activity_feedback_summary_page
 layout activity_in_cspost_qualification
