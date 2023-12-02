@@ -1,27 +1,22 @@
 package com.example.login_backend;
 
-import static android.content.ContentValues.TAG;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.login_backend.databinding.ActivityMainBinding;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -30,7 +25,6 @@ import com.google.firebase.database.ValueEventListener;
 
 public class Login_student extends AppCompatActivity {
     //ActivityMainBinding binding;
-    boolean adminb=false;
     DatabaseReference reference;
     FirebaseDatabase db;
     String username,email,password;
@@ -39,20 +33,6 @@ public class Login_student extends AppCompatActivity {
     FirebaseAuth mAuth;
     ProgressBar progressBar;
     TextView textView;
-    /*
-    // already logged in
-    @Override
-    public void onStart() {
-        super.onStart();
-        // Check if user is signed in (non-null) and update UI accordingly.
-        FirebaseUser currentUser = mAuth.getCurrentUser();
-        if(currentUser != null){
-            Intent intent = new Intent (getApplicationContext(), MainActivity.class);
-            // modify this to connect to student main activity
-            startActivity(intent);
-            finish();
-        }
-    }*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,7 +47,7 @@ public class Login_student extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(getApplicationContext(),Register.class);
+                Intent intent= new Intent(Login_student.this,Register.class);
                 startActivity(intent);
                 finish();
             }
@@ -75,7 +55,6 @@ public class Login_student extends AppCompatActivity {
         buttonLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                progressBar.setVisibility(View.VISIBLE);
                 //String email, password;
                 username=String.valueOf(editusername.getText());
                 email= String.valueOf(editTextEmail.getText());
@@ -86,58 +65,72 @@ public class Login_student extends AppCompatActivity {
                     return;
                 }
                 if(TextUtils.isEmpty(password)) {
-                    Toast.makeText(Login_student.this, "Enter email", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Login_student.this, "Enter password", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                progressBar.setVisibility(View.VISIBLE);
                 // passing data to RTD
                 db = FirebaseDatabase.getInstance();
                 reference=db.getReference("Users");
                 reference=reference.child(username).child("usertype");
 
-                reference.addValueEventListener(new ValueEventListener() {
+                reference.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                     @Override
-                    public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                        adminb= (boolean) dataSnapshot.getValue();
-
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-
+                    public void onComplete(@NonNull Task<DataSnapshot> task) {
+                        boolean adminb = task.getResult().getValue(Boolean.class);
+                        logIn(adminb);
                     }
                 });
-                mAuth.signInWithEmailAndPassword(email, password)
-                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                            @Override
-                            public void onComplete(@NonNull Task<AuthResult> task) {
-                                progressBar.setVisibility(View.GONE);
-                                if (task.isSuccessful() && !adminb) {
-                                    // Sign in success, update UI with the signed-in user's information
-                                    Toast.makeText(getApplicationContext(),"Student login successful", Toast.LENGTH_SHORT);
-                                    Intent intent = new Intent (getApplicationContext(),MainActivity.class);
-                                    // modify this to connect to student main activity
-                                    startActivity(intent);
-                                    finish();
 
-                                } else if (task.isSuccessful() && adminb) {
-                                    // Sign in success, update UI with the signed-in user's information
-                                    Toast.makeText(getApplicationContext(),"Admin login successful", Toast.LENGTH_SHORT);
-                                    Intent intent = new Intent (getApplicationContext(),Admin_main.class);
-                                    // modify this to connect to student main activity
-                                    startActivity(intent);
-                                    finish();
-
-                                }
-                                else {
-                                    // If sign in fails, display a message to the user.
-
-                                    Toast.makeText(Login_student.this, "Authentication failed.",
-                                            Toast.LENGTH_SHORT).show();
-
-                                }
-                            }
-                        });
             }
         });
+    }
+    private void logIn(boolean adminb){
+        mAuth.signInWithEmailAndPassword(email, password)
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        progressBar.setVisibility(View.GONE);
+                        if (task.isSuccessful() && !adminb) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Toast.makeText(Login_student.this,"Student login successful", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent (Login_student.this, StudentHomePage.class);
+                            // modify this to connect to student main activity
+                            intent.putExtra("username", editusername.getText().toString());
+                            startActivity(intent);
+                            finish();
+                        } else if (task.isSuccessful() && adminb) {
+                            // Sign in success, update UI with the signed-in user's information
+                            Toast.makeText(Login_student.this,"Admin login successful", Toast.LENGTH_SHORT).show();
+                            Intent intent = new Intent (Login_student.this,Admin_main.class);
+                            // modify this to connect to student main activity
+                            intent.putExtra("username", editusername.getText().toString());
+                            startActivity(intent);
+                            finish();
+                        }
+                        else {
+                            // If sign in fails, display a message to the user.
+                            Toast.makeText(Login_student.this, "Authentication failed.",
+                                    Toast.LENGTH_SHORT).show();
+
+                        }
+                    }
+                });
+    }
+
+    public void showLoading() {
+        progressBar.setVisibility(View.VISIBLE);
+    }
+    public void showLoginError(String errorMessage) {
+        Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT).show();
+    }
+    public void hideLoading() {
+        progressBar.setVisibility(View.GONE);
+    }
+    public void navigateTo(Class<?> destinationActivity, String username) {
+        Intent intent = new Intent(Login_student.this, destinationActivity);
+        intent.putExtra("username", username);
+        startActivity(intent);
+        finish();
     }
 }

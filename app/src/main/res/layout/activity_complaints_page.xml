@@ -18,85 +18,14 @@
             android:layout_marginTop="20dp"
             android:textSize="30dp"/>
 
-        <Button
-            android:id="@+id/complaint1"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/complaintLayout2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 1"
-            android:textSize="30dp" />
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/complaint2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 2"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 3"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 4"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 5"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 6"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 7"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/complaint8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Complaint 8"
-            android:textSize="30dp" />
+        </LinearLayout>
 
         <Button
             android:id="@+id/back_btn"
@@ -106,6 +35,7 @@
             android:layout_marginLeft="10dp"
             android:text="Back"
             android:textSize="20dp"
+            android:layout_marginTop="50dp"
             android:layout_gravity="start|bottom"
             android:background="@color/black" />
 

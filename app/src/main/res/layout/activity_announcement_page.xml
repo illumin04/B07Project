@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center_horizontal"
@@ -26,86 +27,14 @@
             android:text="Create New Announcement"
             android:textSize="30dp"
             android:background="@color/black"/>
-
-        <Button
-            android:id="@+id/announcement1"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:id="@+id/announcementLayout"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 1"
-            android:textSize="30dp" />
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/announcement2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 2"
-            android:textSize="30dp" />
+        </LinearLayout>
 
-        <Button
-            android:id="@+id/announcement3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 3"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/announcement4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 4"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/announcement5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 5"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/announcement6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 6"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/announcement7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 7"
-            android:textSize="30dp" />
-
-        <Button
-            android:id="@+id/announcement8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="50dp"
-            android:background="@android:color/black"
-            android:text="Announcement 8"
-            android:textSize="30dp" />
 
         <Button
             android:id="@+id/back_btn"

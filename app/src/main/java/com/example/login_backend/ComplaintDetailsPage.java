@@ -16,12 +16,18 @@ public class ComplaintDetailsPage extends AppCompatActivity {
         setContentView(R.layout.activity_complaint_details_page);
         EditText details = findViewById(R.id.details);
         // details.setText(); // backend pass string to setText()
+        Bundle extras = getIntent().getExtras();
 
         Button backbutton = findViewById(R.id.back_btn);
         backbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(ComplaintDetailsPage.this, ComplaintsPage.class);
+                String username = null;
+                if (extras != null) {
+                    username = extras.getString("username");
+                }
+                intent.putExtra("username", username);
                 startActivity(intent);
             }
         });

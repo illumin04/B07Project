@@ -20,8 +20,8 @@
         android:id="@+id/announcements_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Announcements"
+        android:textSize="25dp"
+        android:text="View Announcements"
         android:layout_marginTop="100dp"
         android:background="@color/black"/>
 
@@ -29,8 +29,8 @@
         android:id="@+id/events_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
-        android:text="Events"
+        android:textSize="25dp"
+        android:text="View Events"
         android:layout_marginTop="100dp"
         android:background="@color/black"/>
 
@@ -38,7 +38,7 @@
         android:id="@+id/complaints_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30dp"
+        android:textSize="25dp"
         android:text="View Complaints"
         android:layout_marginTop="100dp"
         android:background="@color/black"/>

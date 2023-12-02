@@ -31,41 +31,74 @@
         android:testOnly="true"
         android:theme="@style/Theme.Material3.Dark" >
         <activity
+            android:name="com.example.login_backend.StudentLoginPresenter"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.StudentLoginModel"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.NewComplaint"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.ComplaintsPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.StudentEventHomePage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.StudentEventFeedbackPage"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.OutMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.InMathPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.OutStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.InStatsPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.MathPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.POStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.CSPOStQualificationHome"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.OutCSPOStQualification"
+            android:exported="false" />
+        <activity
+            android:name="com.example.login_backend.StatsPOStQualificationHome"
+            android:exported="false" />
+        <activity
             android:name="com.example.login_backend.admin_page"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.Student_page"
+            android:name="com.example.login_backend.ViewEvent"
             android:exported="false" />
         <activity
             android:name="com.example.login_backend.Register"
             android:exported="false"
             android:theme="@style/Theme.Material3.Dark.NoActionBar" />
         <activity
-            android:name="com.example.login_backend.Login_admin"
-            android:exported="false" />
-        <activity
             android:name="com.example.login_backend.DetailedAnnouncementActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.ViewAnnouncementsActivity"
+            android:name="com.example.login_backend.ViewAnnouncements"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.AnnouncementsActivity"
+            android:name="com.example.login_backend.ViewComplaints"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.ViewComplaintsActivity"
+            android:name="com.example.login_backend.InCSPOStQualification"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.NewComplaintsActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.login_backend.ComplaintsActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.login_backend.PostQualificationActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.login_backend.Admin_Page"
+            android:name="com.example.login_backend.Admin_main"
             android:exported="false" />
         <activity
             android:name="com.example.login_backend.NewEvent"
@@ -80,16 +113,10 @@
             android:name="com.example.login_backend.EventPage"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.ComplaintsPage"
-            android:exported="false" />
-        <activity
             android:name="com.example.login_backend.ComplaintDetailsPage"
             android:exported="false" />
         <activity
             android:name="com.example.login_backend.AnnouncementPage"
-            android:exported="false" />
-        <activity
-            android:name="com.example.login_backend.AnnnouncementPage"
             android:exported="false" />
         <activity
             android:name="com.example.login_backend.AnnouncementDetailsPage"
@@ -105,8 +132,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.login_backend.MainActivity"
-            android:exported="true" />
+            android:name="com.example.login_backend.StudentHomePage"
+            android:exported="false" />
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
             android:excludeFromRecents="true"
