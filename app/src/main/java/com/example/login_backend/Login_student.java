@@ -77,8 +77,13 @@ public class Login_student extends AppCompatActivity {
                 reference.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
                     @Override
                     public void onComplete(@NonNull Task<DataSnapshot> task) {
-                        boolean adminb = task.getResult().getValue(Boolean.class);
-                        logIn(adminb);
+                        try {
+                            boolean adminb = task.getResult().getValue(Boolean.class);
+                            logIn(adminb);
+                        } catch (Exception e) {
+                            Toast.makeText(Login_student.this, "Username not registered", Toast.LENGTH_SHORT).show();
+                            progressBar.setVisibility(View.GONE);
+                        }
                     }
                 });
 
