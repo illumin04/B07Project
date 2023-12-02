@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -26,6 +27,9 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final Button btnRegister;
 
   @NonNull
+  public final CheckBox checkbox;
+
+  @NonNull
   public final TextInputEditText email;
 
   @NonNull
@@ -44,11 +48,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
   public final TextInputEditText username;
 
   private ActivityRegisterBinding(@NonNull LinearLayout rootView, @NonNull Button btnRegister,
-      @NonNull TextInputEditText email, @NonNull TextView loginnow,
+      @NonNull CheckBox checkbox, @NonNull TextInputEditText email, @NonNull TextView loginnow,
       @NonNull TextInputEditText password, @NonNull ProgressBar progressBar,
       @NonNull TextView signin, @NonNull TextInputEditText username) {
     this.rootView = rootView;
     this.btnRegister = btnRegister;
+    this.checkbox = checkbox;
     this.email = email;
     this.loginnow = loginnow;
     this.password = password;
@@ -90,6 +95,12 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.checkbox;
+      CheckBox checkbox = ViewBindings.findChildViewById(rootView, id);
+      if (checkbox == null) {
+        break missingId;
+      }
+
       id = R.id.email;
       TextInputEditText email = ViewBindings.findChildViewById(rootView, id);
       if (email == null) {
@@ -126,8 +137,8 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityRegisterBinding((LinearLayout) rootView, btnRegister, email, loginnow,
-          password, progressBar, signin, username);
+      return new ActivityRegisterBinding((LinearLayout) rootView, btnRegister, checkbox, email,
+          loginnow, password, progressBar, signin, username);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -122,7 +122,7 @@
             android:name="com.example.login_backend.AnnouncementDetailsPage"
             android:exported="false" />
         <activity
-            android:name="com.example.login_backend.Login_student"
+            android:name="com.example.login_backend.Login_student_view"
             android:exported="true"
             android:theme="@style/Theme.Material3.Dark.NoActionBar" >
             <intent-filter>

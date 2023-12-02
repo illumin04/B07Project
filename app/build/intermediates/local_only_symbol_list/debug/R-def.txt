@@ -40,6 +40,7 @@ id both_qualify_tv
 id btn_register
 id btnlogin
 id checkButton
+id checkbox
 id complaintLayout1
 id complaintLayout2
 id complaint_tv

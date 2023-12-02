@@ -9,8 +9,8 @@
 9        android:targetSdkVersion="33" />
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:5:22-64
+11-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 12-->[com.google.firebase:firebase-auth:22.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/59009302976ed7483234a299ee2d5a59/transformed/firebase-auth-22.3.0/AndroidManifest.xml:26:5-79
 12-->[com.google.firebase:firebase-auth:22.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/59009302976ed7483234a299ee2d5a59/transformed/firebase-auth-22.3.0/AndroidManifest.xml:26:22-76
@@ -27,235 +27,235 @@
 18-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:7:5-121:19
+20-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:7:5-121:19
 21        android:allowBackup="true"
-21-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:8:9-35
+21-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:8:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 22-->[androidx.core:core:1.12.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/b4097c318504fd0618b0b524c70c0f31/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
 23        android:dataExtractionRules="@xml/data_extraction_rules"
-23-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:9:9-65
+23-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:9:9-65
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 26        android:fullBackupContent="@xml/backup_rules"
-26-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:10:9-54
+26-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:10:9-54
 27        android:icon="@mipmap/ic_launcher"
-27-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:11:9-43
+27-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:11:9-43
 28        android:label="@string/app_name"
-28-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:12:9-41
+28-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:12:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:13:9-54
+29-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:13:9-54
 30        android:supportsRtl="true"
-30-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:14:9-35
+30-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:14:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.Material3.Dark" >
-32-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:15:9-52
+32-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:15:9-52
 33        <activity
-33-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:17:9-19:40
+33-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:17:9-19:40
 34            android:name="com.example.login_backend.StudentLoginPresenter"
-34-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:18:13-50
+34-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:18:13-50
 35            android:exported="false" />
-35-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:19:13-37
+35-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:19:13-37
 36        <activity
-36-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:20:9-22:40
+36-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:20:9-22:40
 37            android:name="com.example.login_backend.StudentLoginModel"
-37-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:21:13-46
+37-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:21:13-46
 38            android:exported="false" />
-38-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:22:13-37
+38-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:22:13-37
 39        <activity
-39-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:23:9-25:40
+39-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:23:9-25:40
 40            android:name="com.example.login_backend.NewComplaint"
-40-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:24:13-41
+40-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:24:13-41
 41            android:exported="false" />
-41-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:25:13-37
+41-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:25:13-37
 42        <activity
-42-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:26:9-28:40
+42-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:26:9-28:40
 43            android:name="com.example.login_backend.ComplaintsPage"
-43-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:27:13-43
+43-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:27:13-43
 44            android:exported="false" />
-44-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:28:13-37
+44-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:28:13-37
 45        <activity
-45-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:29:9-31:40
+45-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:29:9-31:40
 46            android:name="com.example.login_backend.StudentEventHomePage"
-46-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:30:13-49
+46-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:30:13-49
 47            android:exported="false" />
-47-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:31:13-37
+47-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:31:13-37
 48        <activity
-48-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:32:9-34:40
+48-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:32:9-34:40
 49            android:name="com.example.login_backend.StudentEventFeedbackPage"
-49-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:33:13-53
+49-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:33:13-53
 50            android:exported="false" />
-50-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:34:13-37
+50-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:34:13-37
 51        <activity
-51-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:35:9-37:40
+51-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:35:9-37:40
 52            android:name="com.example.login_backend.OutMathPOStQualification"
-52-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:36:13-53
+52-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:36:13-53
 53            android:exported="false" />
-53-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:37:13-37
+53-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:37:13-37
 54        <activity
-54-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:38:9-40:40
+54-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:38:9-40:40
 55            android:name="com.example.login_backend.InMathPOStQualification"
-55-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:39:13-52
+55-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:39:13-52
 56            android:exported="false" />
-56-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:40:13-37
+56-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:40:13-37
 57        <activity
-57-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:41:9-43:40
+57-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:41:9-43:40
 58            android:name="com.example.login_backend.OutStatsPOStQualification"
-58-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:42:13-54
+58-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:42:13-54
 59            android:exported="false" />
-59-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:43:13-37
+59-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:43:13-37
 60        <activity
-60-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:44:9-46:40
+60-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:44:9-46:40
 61            android:name="com.example.login_backend.InStatsPOStQualification"
-61-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:45:13-53
+61-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:45:13-53
 62            android:exported="false" />
-62-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:46:13-37
+62-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:46:13-37
 63        <activity
-63-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:47:9-49:40
+63-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:47:9-49:40
 64            android:name="com.example.login_backend.MathPOStQualificationHome"
-64-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:48:13-54
+64-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:48:13-54
 65            android:exported="false" />
-65-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:49:13-37
+65-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:49:13-37
 66        <activity
-66-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:50:9-52:40
+66-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:50:9-52:40
 67            android:name="com.example.login_backend.POStQualificationHome"
-67-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:51:13-50
+67-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:51:13-50
 68            android:exported="false" />
-68-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:52:13-37
+68-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:52:13-37
 69        <activity
-69-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:53:9-55:40
+69-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:53:9-55:40
 70            android:name="com.example.login_backend.CSPOStQualificationHome"
-70-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:54:13-52
+70-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:54:13-52
 71            android:exported="false" />
-71-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:55:13-37
+71-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:55:13-37
 72        <activity
-72-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:56:9-58:40
+72-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:56:9-58:40
 73            android:name="com.example.login_backend.OutCSPOStQualification"
-73-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:57:13-51
+73-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:57:13-51
 74            android:exported="false" />
-74-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:58:13-37
+74-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:58:13-37
 75        <activity
-75-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:59:9-61:40
+75-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:59:9-61:40
 76            android:name="com.example.login_backend.StatsPOStQualificationHome"
-76-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:60:13-55
+76-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:60:13-55
 77            android:exported="false" />
-77-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:61:13-37
+77-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:61:13-37
 78        <activity
-78-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:62:9-64:40
+78-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:62:9-64:40
 79            android:name="com.example.login_backend.admin_page"
-79-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:63:13-39
+79-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:63:13-39
 80            android:exported="false" />
-80-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:64:13-37
+80-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:64:13-37
 81        <activity
-81-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:65:9-67:40
+81-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:65:9-67:40
 82            android:name="com.example.login_backend.ViewEvent"
-82-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:66:13-38
+82-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:66:13-38
 83            android:exported="false" />
-83-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:67:13-37
+83-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:67:13-37
 84        <activity
-84-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:68:9-71:71
+84-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:68:9-71:71
 85            android:name="com.example.login_backend.Register"
-85-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:69:13-37
+85-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:69:13-37
 86            android:exported="false"
-86-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:70:13-37
+86-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:70:13-37
 87            android:theme="@style/Theme.Material3.Dark.NoActionBar" />
-87-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:71:13-68
+87-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:71:13-68
 88        <activity
-88-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:72:9-74:40
+88-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:72:9-74:40
 89            android:name="com.example.login_backend.DetailedAnnouncementActivity"
-89-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:73:13-57
+89-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:73:13-57
 90            android:exported="false" />
-90-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:74:13-37
+90-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:74:13-37
 91        <activity
-91-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:75:9-77:40
+91-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:75:9-77:40
 92            android:name="com.example.login_backend.ViewAnnouncements"
-92-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:76:13-46
+92-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:76:13-46
 93            android:exported="false" />
-93-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:77:13-37
+93-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:77:13-37
 94        <activity
-94-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:78:9-80:40
+94-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:78:9-80:40
 95            android:name="com.example.login_backend.ViewComplaints"
-95-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:79:13-43
+95-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:79:13-43
 96            android:exported="false" />
-96-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:80:13-37
+96-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:80:13-37
 97        <activity
-97-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:81:9-83:40
+97-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:81:9-83:40
 98            android:name="com.example.login_backend.InCSPOStQualification"
-98-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:82:13-50
+98-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:82:13-50
 99            android:exported="false" />
-99-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:83:13-37
+99-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:83:13-37
 100        <activity
-100-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:84:9-86:40
+100-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:84:9-86:40
 101            android:name="com.example.login_backend.Admin_main"
-101-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:85:13-39
+101-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:85:13-39
 102            android:exported="false" />
-102-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:86:13-37
+102-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:86:13-37
 103        <activity
-103-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:87:9-89:40
+103-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:87:9-89:40
 104            android:name="com.example.login_backend.NewEvent"
-104-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:88:13-37
+104-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:88:13-37
 105            android:exported="false" />
-105-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:89:13-37
+105-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:89:13-37
 106        <activity
-106-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:90:9-92:40
+106-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:90:9-92:40
 107            android:name="com.example.login_backend.NewAnnouncement"
-107-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:91:13-44
+107-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:91:13-44
 108            android:exported="false" />
-108-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:92:13-37
+108-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:92:13-37
 109        <activity
-109-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:93:9-95:40
+109-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:93:9-95:40
 110            android:name="com.example.login_backend.FeedbackSummaryPage"
-110-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:94:13-48
+110-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:94:13-48
 111            android:exported="false" />
-111-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:95:13-37
+111-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:95:13-37
 112        <activity
-112-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:96:9-98:40
+112-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:96:9-98:40
 113            android:name="com.example.login_backend.EventPage"
-113-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:97:13-38
+113-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:97:13-38
 114            android:exported="false" />
-114-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:98:13-37
+114-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:98:13-37
 115        <activity
-115-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:99:9-101:40
+115-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:99:9-101:40
 116            android:name="com.example.login_backend.ComplaintDetailsPage"
-116-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:100:13-49
+116-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:100:13-49
 117            android:exported="false" />
-117-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:101:13-37
+117-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:101:13-37
 118        <activity
-118-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:102:9-104:40
+118-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:102:9-104:40
 119            android:name="com.example.login_backend.AnnouncementPage"
-119-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:103:13-45
+119-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:103:13-45
 120            android:exported="false" />
-120-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:104:13-37
+120-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:104:13-37
 121        <activity
-121-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:105:9-107:40
+121-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:105:9-107:40
 122            android:name="com.example.login_backend.AnnouncementDetailsPage"
-122-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:106:13-52
+122-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:106:13-52
 123            android:exported="false" />
-123-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:107:13-37
+123-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:107:13-37
 124        <activity
-124-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:108:9-117:20
-125            android:name="com.example.login_backend.Login_student"
-125-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:109:13-42
+124-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:108:9-117:20
+125            android:name="com.example.login_backend.Login_student_view"
+125-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:109:13-47
 126            android:exported="true"
-126-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:110:13-36
+126-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:110:13-36
 127            android:theme="@style/Theme.Material3.Dark.NoActionBar" >
-127-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:111:13-68
+127-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:111:13-68
 128            <intent-filter>
-128-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:112:13-116:29
+128-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:112:13-116:29
 129                <action android:name="android.intent.action.MAIN" />
-129-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:113:17-69
-129-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:113:25-66
+129-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:113:17-69
+129-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:113:25-66
 130
 131                <category android:name="android.intent.category.LAUNCHER" />
-131-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:115:17-77
-131-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:115:27-74
+131-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:115:17-77
+131-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:115:27-74
 132            </intent-filter>
 133        </activity>
 134        <activity
-134-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:118:9-120:40
+134-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:118:9-120:40
 135            android:name="com.example.login_backend.StudentHomePage"
-135-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:119:13-44
+135-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:119:13-44
 136            android:exported="false" />
-136-->/Users/gogo/Downloads/B07Project-main/app/src/main/AndroidManifest.xml:120:13-37
+136-->/Users/gogo/Downloads/B07Project-main 2/app/src/main/AndroidManifest.xml:120:13-37
 137        <activity
 137-->[com.google.firebase:firebase-auth:22.3.0] /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/59009302976ed7483234a299ee2d5a59/transformed/firebase-auth-22.3.0/AndroidManifest.xml:29:9-46:20
 138            android:name="com.google.firebase.auth.internal.GenericIdpActivity"

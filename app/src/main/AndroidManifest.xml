@@ -106,7 +106,7 @@
             android:name=".AnnouncementDetailsPage"
             android:exported="false" />
         <activity
-            android:name=".Login_student"
+            android:name=".Login_student_view"
             android:exported="true"
             android:theme="@style/Theme.Material3.Dark.NoActionBar">
             <intent-filter>
