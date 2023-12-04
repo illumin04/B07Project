@@ -1,11 +1,11 @@
-com.example.login_backend.app-pngs-0 /Users/gogo/Downloads/B07Project-main 2/app/build/generated/res/pngs/debug
-com.example.login_backend.app-res-1 /Users/gogo/Downloads/B07Project-main 2/app/build/generated/res/processDebugGoogleServices
-com.example.login_backend.app-resValues-2 /Users/gogo/Downloads/B07Project-main 2/app/build/generated/res/resValues/debug
-com.example.login_backend.app-packageDebugResources-3 /Users/gogo/Downloads/B07Project-main 2/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.example.login_backend.app-packageDebugResources-4 /Users/gogo/Downloads/B07Project-main 2/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.example.login_backend.app-merged_res-5 /Users/gogo/Downloads/B07Project-main 2/app/build/intermediates/merged_res/debug
-com.example.login_backend.app-debug-6 /Users/gogo/Downloads/B07Project-main 2/app/src/debug/res
-com.example.login_backend.app-main-7 /Users/gogo/Downloads/B07Project-main 2/app/src/main/res
+com.example.login_backend.app-pngs-0 /Users/gogo/Downloads/B07Project-main/app/build/generated/res/pngs/debug
+com.example.login_backend.app-res-1 /Users/gogo/Downloads/B07Project-main/app/build/generated/res/processDebugGoogleServices
+com.example.login_backend.app-resValues-2 /Users/gogo/Downloads/B07Project-main/app/build/generated/res/resValues/debug
+com.example.login_backend.app-packageDebugResources-3 /Users/gogo/Downloads/B07Project-main/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.login_backend.app-packageDebugResources-4 /Users/gogo/Downloads/B07Project-main/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.login_backend.app-merged_res-5 /Users/gogo/Downloads/B07Project-main/app/build/intermediates/merged_res/debug
+com.example.login_backend.app-debug-6 /Users/gogo/Downloads/B07Project-main/app/src/debug/res
+com.example.login_backend.app-main-7 /Users/gogo/Downloads/B07Project-main/app/src/main/res
 com.example.login_backend.app-material-1.10.0-8 /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/049ae63a1950a4725ff9b326c87f6ca3/transformed/material-1.10.0/res
 com.example.login_backend.app-cardview-1.0.0-9 /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/0852b773c0a4cdc9c1478973d0c93d4d/transformed/cardview-1.0.0/res
 com.example.login_backend.app-recyclerview-1.1.0-10 /Users/gogo/Programming/GogoAndroid/AndoidProjects/caches/transforms-3/21f55b2dfaf3df85e2e56699ef985409/transformed/recyclerview-1.1.0/res

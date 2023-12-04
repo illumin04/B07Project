@@ -1,230 +1,226 @@
 [
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_math_post_qualification_home.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_math_post_qualification_home.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_android_registration.png.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/android_registration.png"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_studentuser.jpg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/studentuser.jpg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_in_cspost_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_in_cspost_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_baseline_password_24.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/baseline_password_24.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_event_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_event_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_student_event_home_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_student_event_home_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_baseline_home_24.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/baseline_home_24.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_feedback_summary_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_feedback_summary_page.xml"
-    },
-    {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_announce_complaint.jpg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/announce_complaint.jpg"
-    },
-    {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_cspost_qualification_home.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_cspost_qualification_home.xml"
     },
     {
         "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_register.xml.flat",
         "source": "com.example.login_backend.app-main-7:/layout/activity_register.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_new_announcement.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_new_announcement.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_math_post_qualification_home.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_math_post_qualification_home.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_event_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_event_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_complaints_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_complaints_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_out_cspost_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_out_cspost_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/navigation_nav_graph.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/navigation/nav_graph.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_view_announcements.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_view_announcements.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_in_math_post_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_in_math_post_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_stats_post_qualification_home.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_stats_post_qualification_home.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_view_complaints.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_view_complaints.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_student_event_home_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_student_event_home_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_baseline_person_add_24.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/baseline_person_add_24.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_feedback.jpg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/feedback.jpg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_baseline_home_24.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/baseline_home_24.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_android_login.png.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/android_login.png"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_login_student.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_login_student.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_admin_main.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_admin_main.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_feedback_summary_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_feedback_summary_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/menu_menu_main.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/menu/menu_main.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_in_stats_post_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_in_stats_post_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/xml/data_extraction_rules.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_student_home_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_student_home_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_login_student.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_login_student.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_baseline_password_24.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/baseline_password_24.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_android_registration.png.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/android_registration.png"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/navigation_nav_graph.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/navigation/nav_graph.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_in_stats_post_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_in_stats_post_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_background.jpeg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/background.jpeg"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_announce_complaint.jpg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/announce_complaint.jpg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_main.jpg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/main.jpg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_announcement_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_announcement_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_announcement_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_announcement_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/baseline_arrow_back_24.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_new_event.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_new_event.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_post_qualification_home.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_post_qualification_home.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_student_event_feedback_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_student_event_feedback_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_post.jpg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/post.jpg"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_post.jpg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/post.jpg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_view_event.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_view_event.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_new_announcement.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_new_announcement.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_view_announcements.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_view_announcements.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_admin_main.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_admin_main.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_post_qualification_home.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_post_qualification_home.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_main.jpg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/main.jpg"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_out_math_post_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_out_math_post_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_android_login.png.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/android_login.png"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_complaints_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_complaints_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_out_math_post_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_out_math_post_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_background.jpeg.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/background.jpeg"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/xml_backup_rules.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/xml/backup_rules.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_out_stats_post_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_out_stats_post_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_student_home_page.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_student_home_page.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_cspost_qualification_home.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_cspost_qualification_home.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_view_event.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_view_event.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_in_math_post_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_in_math_post_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_register.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_register.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_student_event_feedback_page.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_student_event_feedback_page.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/menu_menu_main.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/ic_launcher_foreground.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_view_complaints.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_view_complaints.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_new_complaint.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_new_complaint.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/layout_activity_out_cspost_qualification.xml.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/layout/activity_out_cspost_qualification.xml"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_in_cspost_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_in_cspost_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_stats_post_qualification_home.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_stats_post_qualification_home.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_out_stats_post_qualification.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_out_stats_post_qualification.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_studentuser.jpg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/studentuser.jpg"
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_new_complaint.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_new_complaint.xml"
     },
     {
-        "merged": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-merged_res-5:/drawable_feedback.jpg.flat",
-        "source": "/Users/gogo/Programming/GogoAndroid/AndoidProjects/daemon/8.0/com.example.login_backend.app-main-7:/drawable/feedback.jpg"
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.login_backend.app-merged_res-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.login_backend.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.login_backend.app-merged_res-5:/layout_activity_new_event.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/layout/activity_new_event.xml"
+    },
+    {
+        "merged": "com.example.login_backend.app-merged_res-5:/drawable_baseline_person_add_24.xml.flat",
+        "source": "com.example.login_backend.app-main-7:/drawable/baseline_person_add_24.xml"
     }
 ]
