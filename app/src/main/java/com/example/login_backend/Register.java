@@ -35,7 +35,7 @@ public class Register extends AppCompatActivity {
     FirebaseAuth mAuth;
     ProgressBar progressBar;
     TextView textView;
-    CheckBox checkBox;
+//    CheckBox checkBox;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,23 +49,23 @@ public class Register extends AppCompatActivity {
         buttonReg = findViewById(R.id.btn_register);
         progressBar=findViewById(R.id.progressBar);
         textView = findViewById(R.id.loginnow);
-        checkBox=findViewById(R.id.checkbox);
-        admin=checkBox.isChecked();
+//        checkBox=findViewById(R.id.checkbox);
+        admin=false;
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(getApplicationContext(), Login_student_view.class);
+                Intent intent= new Intent(Register.this, Login_student_view.class);
                 startActivity(intent);
                 finish();
             }
         });
         //admin box check
-        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                admin=checkBox.isChecked();
-            }
-        });
+//        checkBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                admin=checkBox.isChecked();
+//            }
+//        });
         buttonReg.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -106,6 +106,7 @@ public class Register extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     progressBar.setVisibility(View.GONE);
+                                    admin = false;
                                     if (task.isSuccessful() && !admin) {
                                         Toast.makeText(Register.this, "Student account created.",
                                                 Toast.LENGTH_SHORT).show();
@@ -123,7 +124,6 @@ public class Register extends AppCompatActivity {
                                         // If sign in fails, display a message to the user.
                                         Toast.makeText(Register.this, "Authentication failed.",
                                                 Toast.LENGTH_SHORT).show();
-
                                     }
                                 }
                             });

@@ -12,39 +12,24 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Login_student_presenter {
     Login_student_view view;
     Login_student_model model;
-    FirebaseAuth mAuth;
 
     public Login_student_presenter(Login_student_view view, Login_student_model model){
         this.view = view;
         this.model = model;
-        this.mAuth= FirebaseAuth.getInstance();
     }
 
-    protected void logIn(boolean adminb, String email, String password){
-        mAuth.signInWithEmailAndPassword(email, password)
-                .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-                        view.setProgressGone();
-                        if (task.isSuccessful() && !adminb) {
-                            view.successfulStudent();
-                        } else if (task.isSuccessful() && adminb) {
-                            view.successfulAdmin();
-                        } else {
-                            view.showAuthFail();
-                        }
-                    }
-                });
-    }
+
 
     protected void checkLogIn(){
         String username = view.getUsername();
         String email = view.getEmail();
         String password = view.getPassword();
-        if(TextUtils.isEmpty(email)){
+        if(email.equals("")){
             view.showNoEmail();
-        }else if(TextUtils.isEmpty(password)) {
+        }else if(password.equals("")) {
             view.showNoPassword();
+        }else if(username.equals("")){
+            view.showNoUser();
         }else{
             model.attemptLogIn(username, email, password, Login_student_presenter.this);
         }
@@ -52,5 +37,21 @@ public class Login_student_presenter {
 
     protected void presentNoUser(){
         view.showNoUser();
+    }
+
+    protected void presentProgressGone(){
+        view.setProgressGone();
+    }
+
+    protected void presentSuccessfulStudent(){
+        view.successfulStudent();
+    }
+
+    protected void presentSuccessfulAdmin(){
+        view.successfulAdmin();
+    }
+
+    protected void presentShowAuthFail(){
+        view.showAuthFail();
     }
 }

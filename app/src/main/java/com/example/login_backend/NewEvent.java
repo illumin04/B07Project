@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,11 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import java.text.DateFormat;
+import java.time.Year;
+import java.util.Calendar;
+import java.util.Date;
 
 public class NewEvent extends AppCompatActivity {
 
@@ -28,12 +34,9 @@ public class NewEvent extends AppCompatActivity {
         db = FirebaseDatabase.getInstance();
         EditText event_name = findViewById(R.id.name);
         event_name.setSelection(0);
-        // event_name.setText(); // backend pass string to setText()
         EditText event_details = findViewById(R.id.details);
         event_details.setSelection(0);
-        // event_details.setText(); // backend pass string to setText()
         EditText limit = findViewById(R.id.stu_limit);
-//        limit.setSelection(14);
         TextView eventMessage = findViewById(R.id.eventMessage);
 
         Button backButton = findViewById(R.id.back_btn);
@@ -51,7 +54,10 @@ public class NewEvent extends AppCompatActivity {
                 String eventName = event_name.getText().toString();
                 String eventDetails = event_details.getText().toString();
                 String eventLimit = limit.getText().toString();
-                if(eventName.isEmpty()){
+                String time = getTime();
+                if(time.equals("false")){
+                    Toast.makeText(NewEvent.this, "Invalid date", Toast.LENGTH_SHORT).show();
+                }else if(eventName.isEmpty()){
                     eventMessage.setText(R.string.eventMessage1);
                 }else if(eventDetails.isEmpty()){
                     eventMessage.setText(R.string.eventMessage2);
@@ -74,16 +80,62 @@ public class NewEvent extends AppCompatActivity {
                 int c = Integer.parseInt(task.getResult().getValue().toString());
                 c += 1;
                 String name = "event" + c;
+                String time = getTime();
                 ref.child(name).child("details").setValue(details);
                 ref.child(name).child("limit").setValue(limit);
                 ref.child(name).child("rsvp").child("rsvpCount").setValue("0");
                 ref.child(name).child("ratings").child("rateCount").setValue("0");
                 ref.child(name).child("ratings").child("totalRate").setValue("0");
                 ref.child(name).child("name").setValue(eventName);
+                ref.child(name).child("time").setValue(time);
                 ref.child("eventCount").setValue(Integer.toString(c));
                 ref.child(name).child("comments")
                         .child("commentCount").setValue("0");
             }
         });
     }
+
+    private String getTime(){
+        EditText day = findViewById(R.id.day);
+        EditText month = findViewById(R.id.month);
+        EditText year = findViewById(R.id.year);
+        String Day = day.getText().toString();
+        String Month = month.getText().toString();
+        String Year = year.getText().toString();
+        if(!checkTime(Day, Month, Year)){
+            return "false";
+        }
+        return Month + " / " + Day + " / " + Year;
+    }
+
+    private boolean checkTime(String day, String month, String year){
+        int Day = Integer.parseInt(day);
+        int Month = Integer.parseInt(month);
+        int Year = Integer.parseInt(year);
+        if (Month < 1 || Month > 12) {
+            return false;
+        }
+        if(Year % 4 == 0){
+            if(Year % 100 == 0){
+                if(Year % 400 != 0){
+                    return run(Day, Month);
+                }
+                return ping(Day, Month);
+            }
+            return run(Day, Month);
+        }
+        return ping(Day, Month);
+    }
+
+
+    private boolean run(int day, int month){
+        int[] a = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        return day > 0 && day <= a[month - 1];
+    }
+
+    private boolean ping(int day, int month){
+        int[] a = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+        return day > 0 && day <= a[month - 1];
+    }
 }
+

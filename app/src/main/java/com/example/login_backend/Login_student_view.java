@@ -26,7 +26,7 @@ public class Login_student_view extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(Login_student_view.this,Register.class);
+                Intent intent= new Intent(Login_student_view.this, Register.class);
                 startActivity(intent);
                 finish();
             }

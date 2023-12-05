@@ -40,7 +40,6 @@ id both_qualify_tv
 id btn_register
 id btnlogin
 id checkButton
-id checkbox
 id complaintLayout1
 id complaintLayout2
 id complaint_tv
@@ -48,6 +47,7 @@ id complaints_btn
 id countMsg
 id cs
 id currentReg
+id day
 id details
 id email
 id eventLayout
@@ -67,6 +67,7 @@ id major_qualify_tv
 id math
 id ml_specialist_note
 id ml_specialist_qualify_tv
+id month
 id name
 id nav_graph
 id new_announcement_btn
@@ -105,6 +106,8 @@ id rsvpButton
 id rsvpLimit
 id scale
 id signin
+id slash1
+id slash2
 id specialist_note
 id specialist_qualify_tv
 id stats
@@ -112,8 +115,10 @@ id stu_limit
 id submitButton
 id submit_area
 id submit_btn
+id time
 id username
 id welcome_tv
+id year
 id yes
 layout activity_admin_main
 layout activity_announcement_page

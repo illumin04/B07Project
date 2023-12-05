@@ -3330,6 +3330,7 @@ id customPanel
 id cut
 id dark
 id date_picker_actions
+id day
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3483,6 +3484,7 @@ id middle
 id mini
 id ml_specialist_note
 id ml_specialist_qualify_tv
+id month
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3652,6 +3654,8 @@ id signin
 id sin
 id skipCollapsed
 id skipped
+id slash1
+id slash2
 id slide
 id sliding_pane_detail_container
 id sliding_pane_layout
@@ -3761,6 +3765,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id year
 id yes
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur

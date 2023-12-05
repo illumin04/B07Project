@@ -132,6 +132,20 @@ public class StudentEventFeedbackPage extends AppCompatActivity {
     private void showInfo(String eventName){
         showEventName(eventName);
         showEventDetails(eventName);
+        showEventTime(eventName);
+    }
+
+    private void showEventTime(String eventName){
+        DatabaseReference ref = db.getReference().child("Events")
+                .child(eventName).child("time");
+        ref.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                String time = "Event scheduled time: " + task.getResult().getValue(String.class);
+                TextView event_time = findViewById(R.id.time);
+                event_time.setText(time);
+            }
+        });
     }
 
 

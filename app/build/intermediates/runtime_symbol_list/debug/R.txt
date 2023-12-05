@@ -3329,6 +3329,7 @@ int id customPanel 0x7f0800aa
 int id cut 0x7f0800ab
 int id dark 0x7f0800ac
 int id date_picker_actions 0x7f0800ad
+int id day 0x7f08025e
 int id decelerate 0x7f0800ae
 int id decelerateAndComplete 0x7f0800af
 int id decor_content_parent 0x7f0800b0
@@ -3482,6 +3483,7 @@ int id middle 0x7f080143
 int id mini 0x7f080144
 int id ml_specialist_note 0x7f080145
 int id ml_specialist_qualify_tv 0x7f080146
+int id month 0x7f08025f
 int id month_grid 0x7f080147
 int id month_navigation_bar 0x7f080148
 int id month_navigation_fragment_toggle 0x7f080149
@@ -3651,6 +3653,8 @@ int id signin 0x7f0801ec
 int id sin 0x7f0801ed
 int id skipCollapsed 0x7f0801ee
 int id skipped 0x7f0801ef
+int id slash1 0x7f080260
+int id slash2 0x7f080261
 int id slide 0x7f0801f0
 int id sliding_pane_detail_container 0x7f0801f1
 int id sliding_pane_layout 0x7f0801f2
@@ -3760,6 +3764,7 @@ int id wrap_content 0x7f080259
 int id wrap_content_constrained 0x7f08025a
 int id x_left 0x7f08025b
 int id x_right 0x7f08025c
+int id year 0x7f080262
 int id yes 0x7f08025d
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
